@@ -35,6 +35,7 @@ robots: "index, follow, max-image-preview:large"
     - [Проверка](https://sql.sergeyromanenko.com/roadmap/#stage-7) — Проверка знаний и подготовка к собеседованию по SQL
   - [Отзывы](https://sql.sergeyromanenko.com/reviews/) — Отзывы учащихся о SQL-курсах: реальные впечатления без правок и сокращений
   - [Песочница SQL](https://sql.sergeyromanenko.com/sandbox/) — SQLite в браузере с учебными базами
+  - [Тренажёр SQL](https://sql.sergeyromanenko.com/trainer/) — 39 практических задач с проверкой, достижения и сертификаты
   - [Справочник SQL](https://sql.sergeyromanenko.com/reference/) — Синтаксис SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции и другие темы
     - [SELECT](https://sql.sergeyromanenko.com/reference/#select) — Выбирает столбцы и вычисляемые выражения из таблицы.
     - [WHERE](https://sql.sergeyromanenko.com/reference/#where) — Оставляет строки, для которых условие истинно.

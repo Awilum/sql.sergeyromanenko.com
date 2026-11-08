@@ -1,0 +1,1828 @@
+{
+  "lessonId": 2447854,
+  "sectionId": 722430,
+  "sectionTitle": "Практика",
+  "lessonTitle": "Часть 1",
+  "exercises": [
+    {
+      "stepId": 10549695,
+      "position": 1,
+      "kind": "graded",
+      "title": "Выведите никнеймы всех игроков из таблицы players",
+      "difficulty": null,
+      "cost": 1,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/1?unit=2485153",
+      "statementHtml": "<p>Выведите никнеймы всех игроков из таблицы <code>players</code>.</p>\n<p>Результат отсортируйте по никнейму в алфавитном порядке.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname\nFROM players\nORDER BY nickname;",
+      "expectedResult": {
+        "columns": [
+          "nickname"
+        ],
+        "rows": [
+          [
+            "AdmiralB"
+          ],
+          [
+            "AliceFox"
+          ],
+          [
+            "AlphaKnight"
+          ],
+          [
+            "AltaiShaman"
+          ],
+          [
+            "AmurTiger"
+          ],
+          [
+            "BaikalSeal"
+          ],
+          [
+            "BalticStorm"
+          ],
+          [
+            "BlackSea"
+          ],
+          [
+            "CatQueen"
+          ],
+          [
+            "CheeseLover"
+          ],
+          [
+            "CossackRider"
+          ],
+          [
+            "CyberKing"
+          ],
+          [
+            "DiamondUser"
+          ],
+          [
+            "FalconScout"
+          ],
+          [
+            "Fisherman"
+          ],
+          [
+            "ForestHunter"
+          ],
+          [
+            "GnomeMiner"
+          ],
+          [
+            "KamchatkaCrab"
+          ],
+          [
+            "KazanCat"
+          ],
+          [
+            "KurskBird"
+          ],
+          [
+            "Lia"
+          ],
+          [
+            "LipetskBoy"
+          ],
+          [
+            "MagnetPoint"
+          ],
+          [
+            "MaxDrive"
+          ],
+          [
+            "Meteorite"
+          ],
+          [
+            "MoscowGuy"
+          ],
+          [
+            "MountainQueen"
+          ],
+          [
+            "NightWolf"
+          ],
+          [
+            "NorthLight"
+          ],
+          [
+            "PhoenixRF"
+          ],
+          [
+            "PrinceX"
+          ],
+          [
+            "PskovLynx"
+          ],
+          [
+            "RangerX"
+          ],
+          [
+            "RiverMaid"
+          ],
+          [
+            "RyazanRider"
+          ],
+          [
+            "SeaWolf"
+          ],
+          [
+            "ShieldWall"
+          ],
+          [
+            "SiberianLion"
+          ],
+          [
+            "SilentStream"
+          ],
+          [
+            "SilverArrow"
+          ],
+          [
+            "StarDust"
+          ],
+          [
+            "SteelKnight"
+          ],
+          [
+            "SteppeEagle"
+          ],
+          [
+            "StormBringer"
+          ],
+          [
+            "ThunderStrike"
+          ],
+          [
+            "TulaBaker"
+          ],
+          [
+            "TverWanderer"
+          ],
+          [
+            "VologdaUser"
+          ],
+          [
+            "WindChange"
+          ],
+          [
+            "YarBear"
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549795,
+      "position": 2,
+      "kind": "graded",
+      "title": "Выведите никнейм игрока (nickname) и его уровень (level)",
+      "difficulty": null,
+      "cost": 1,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/2?unit=2485153",
+      "statementHtml": "<p>Выведите никнейм игрока (<code>nickname</code>) и его уровень (<code>level</code>).</p>\n<p>Результат отсортируйте по уровню по возрастанию.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, level\nFROM players\nORDER BY level ASC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "level"
+        ],
+        "rows": [
+          [
+            "PrinceX",
+            5
+          ],
+          [
+            "KazanCat",
+            8
+          ],
+          [
+            "CatQueen",
+            12
+          ],
+          [
+            "LipetskBoy",
+            14
+          ],
+          [
+            "NorthLight",
+            15
+          ],
+          [
+            "CheeseLover",
+            17
+          ],
+          [
+            "WindChange",
+            18
+          ],
+          [
+            "TverWanderer",
+            19
+          ],
+          [
+            "TulaBaker",
+            21
+          ],
+          [
+            "StarDust",
+            22
+          ],
+          [
+            "RyazanRider",
+            24
+          ],
+          [
+            "RiverMaid",
+            25
+          ],
+          [
+            "VologdaUser",
+            27
+          ],
+          [
+            "SilentStream",
+            28
+          ],
+          [
+            "Fisherman",
+            29
+          ],
+          [
+            "AliceFox",
+            31
+          ],
+          [
+            "PskovLynx",
+            32
+          ],
+          [
+            "SteppeEagle",
+            33
+          ],
+          [
+            "GnomeMiner",
+            34
+          ],
+          [
+            "Meteorite",
+            36
+          ],
+          [
+            "KurskBird",
+            38
+          ],
+          [
+            "BlackSea",
+            39
+          ],
+          [
+            "CyberKing",
+            40
+          ],
+          [
+            "ShieldWall",
+            41
+          ],
+          [
+            "MoscowGuy",
+            42
+          ],
+          [
+            "YarBear",
+            44
+          ],
+          [
+            "AlphaKnight",
+            45
+          ],
+          [
+            "MagnetPoint",
+            46
+          ],
+          [
+            "SeaWolf",
+            48
+          ],
+          [
+            "FalconScout",
+            49
+          ],
+          [
+            "PhoenixRF",
+            50
+          ],
+          [
+            "StormBringer",
+            52
+          ],
+          [
+            "Lia",
+            52
+          ],
+          [
+            "RangerX",
+            53
+          ],
+          [
+            "MaxDrive",
+            55
+          ],
+          [
+            "CossackRider",
+            57
+          ],
+          [
+            "AmurTiger",
+            58
+          ],
+          [
+            "DiamondUser",
+            60
+          ],
+          [
+            "SteelKnight",
+            61
+          ],
+          [
+            "KamchatkaCrab",
+            63
+          ],
+          [
+            "SilverArrow",
+            64
+          ],
+          [
+            "BalticStorm",
+            67
+          ],
+          [
+            "BaikalSeal",
+            68
+          ],
+          [
+            "ForestHunter",
+            70
+          ],
+          [
+            "AltaiShaman",
+            72
+          ],
+          [
+            "NightWolf",
+            73
+          ],
+          [
+            "MountainQueen",
+            77
+          ],
+          [
+            "SiberianLion",
+            82
+          ],
+          [
+            "ThunderStrike",
+            89
+          ],
+          [
+            "AdmiralB",
+            91
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549810,
+      "position": 3,
+      "kind": "graded",
+      "title": "Выведите никнейм игрока и город проживания",
+      "difficulty": null,
+      "cost": 1,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/3?unit=2485153",
+      "statementHtml": "<p>Выведите никнейм игрока и город проживания.</p>\n<p>Для города используйте псевдоним <code>player_city</code>.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname,\n       city AS player_city\nFROM players;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "player_city"
+        ],
+        "rows": [
+          [
+            "AlphaKnight",
+            "Москва"
+          ],
+          [
+            "CatQueen",
+            "Санкт-Петербург"
+          ],
+          [
+            "ThunderStrike",
+            "Новосибирск"
+          ],
+          [
+            "AliceFox",
+            "Екатеринбург"
+          ],
+          [
+            "MaxDrive",
+            "Омск"
+          ],
+          [
+            "NightWolf",
+            "Казань"
+          ],
+          [
+            "StarDust",
+            "Нижний Новгород"
+          ],
+          [
+            "SteelKnight",
+            "Челябинск"
+          ],
+          [
+            "CyberKing",
+            "Самара"
+          ],
+          [
+            "PhoenixRF",
+            "Ростов-на-Дону"
+          ],
+          [
+            "GnomeMiner",
+            "Уфа"
+          ],
+          [
+            "SiberianLion",
+            "Красноярск"
+          ],
+          [
+            "WindChange",
+            "Пермь"
+          ],
+          [
+            "SilentStream",
+            "Воронеж"
+          ],
+          [
+            "BalticStorm",
+            "Калининград"
+          ],
+          [
+            "PrinceX",
+            "Владимир"
+          ],
+          [
+            "ForestHunter",
+            "Хабаровск"
+          ],
+          [
+            "AmurTiger",
+            "Владивосток"
+          ],
+          [
+            "BlackSea",
+            "Сочи"
+          ],
+          [
+            "RiverMaid",
+            "Волгоград"
+          ],
+          [
+            "SeaWolf",
+            "Мурманск"
+          ],
+          [
+            "SteppeEagle",
+            "Оренбург"
+          ],
+          [
+            "NorthLight",
+            "Тула"
+          ],
+          [
+            "SilverArrow",
+            "Ижевск"
+          ],
+          [
+            "Fisherman",
+            "Астрахань"
+          ],
+          [
+            "StormBringer",
+            "Саратов"
+          ],
+          [
+            "KazanCat",
+            "Казань"
+          ],
+          [
+            "MountainQueen",
+            "Екатеринбург"
+          ],
+          [
+            "AdmiralB",
+            "Санкт-Петербург"
+          ],
+          [
+            "MoscowGuy",
+            "Москва"
+          ],
+          [
+            "Meteorite",
+            "Челябинск"
+          ],
+          [
+            "DiamondUser",
+            "Якутск"
+          ],
+          [
+            "RyazanRider",
+            "Рязань"
+          ],
+          [
+            "TverWanderer",
+            "Тверь"
+          ],
+          [
+            "CossackRider",
+            "Краснодар"
+          ],
+          [
+            "YarBear",
+            "Ярославль"
+          ],
+          [
+            "BaikalSeal",
+            "Иркутск"
+          ],
+          [
+            "LipetskBoy",
+            "Липецк"
+          ],
+          [
+            "PskovLynx",
+            "Псков"
+          ],
+          [
+            "FalconScout",
+            "Ставрополь"
+          ],
+          [
+            "AltaiShaman",
+            "Барнаул"
+          ],
+          [
+            "TulaBaker",
+            "Тула"
+          ],
+          [
+            "KurskBird",
+            "Курск"
+          ],
+          [
+            "KamchatkaCrab",
+            "Петропавловск-Камчатский"
+          ],
+          [
+            "VologdaUser",
+            "Вологда"
+          ],
+          [
+            "ShieldWall",
+            "Смоленск"
+          ],
+          [
+            "RangerX",
+            "Брянск"
+          ],
+          [
+            "MagnetPoint",
+            "Магнитогорск"
+          ],
+          [
+            "CheeseLover",
+            "Кострома"
+          ],
+          [
+            "Lia",
+            "Северодвинск"
+          ]
+        ]
+      },
+      "orderSensitive": false,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549812,
+      "position": 4,
+      "kind": "graded",
+      "title": "Выведите всех игроков из города Москва",
+      "difficulty": null,
+      "cost": 1,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/4?unit=2485153",
+      "statementHtml": "<p>Выведите всех игроков из города Москва.</p>\n<p>Покажите столбцы <code>nickname</code>, <code>city</code> и <code>level</code>.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, city, level\nFROM players\nWHERE city = 'Москва';",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "city",
+          "level"
+        ],
+        "rows": [
+          [
+            "AlphaKnight",
+            "Москва",
+            45
+          ],
+          [
+            "MoscowGuy",
+            "Москва",
+            42
+          ]
+        ]
+      },
+      "orderSensitive": false,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549817,
+      "position": 5,
+      "kind": "graded",
+      "title": "Выведите никнейм, уровень и рейтинг игроков, чей уровень выше 50",
+      "difficulty": null,
+      "cost": 2,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/5?unit=2485153",
+      "statementHtml": "<p>Выведите никнейм, уровень и рейтинг игроков, чей уровень выше 50.</p>\n<p>Отсортируйте результат по рейтингу по убыванию.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, level, rating\nFROM players\nWHERE level > 50\nORDER BY rating DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "level",
+          "rating"
+        ],
+        "rows": [
+          [
+            "AdmiralB",
+            91,
+            3600
+          ],
+          [
+            "ThunderStrike",
+            89,
+            3450
+          ],
+          [
+            "SiberianLion",
+            82,
+            3200
+          ],
+          [
+            "MountainQueen",
+            77,
+            3100
+          ],
+          [
+            "AltaiShaman",
+            72,
+            2980
+          ],
+          [
+            "ForestHunter",
+            70,
+            2950
+          ],
+          [
+            "NightWolf",
+            73,
+            2900
+          ],
+          [
+            "BaikalSeal",
+            68,
+            2850
+          ],
+          [
+            "BalticStorm",
+            67,
+            2800
+          ],
+          [
+            "KamchatkaCrab",
+            63,
+            2750
+          ],
+          [
+            "SilverArrow",
+            64,
+            2700
+          ],
+          [
+            "SteelKnight",
+            61,
+            2650
+          ],
+          [
+            "DiamondUser",
+            60,
+            2600
+          ],
+          [
+            "AmurTiger",
+            58,
+            2500
+          ],
+          [
+            "CossackRider",
+            57,
+            2450
+          ],
+          [
+            "MaxDrive",
+            55,
+            2400
+          ],
+          [
+            "Lia",
+            52,
+            2380
+          ],
+          [
+            "RangerX",
+            53,
+            2350
+          ],
+          [
+            "StormBringer",
+            52,
+            2300
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549832,
+      "position": 6,
+      "kind": "graded",
+      "title": "Выведите игроков, которые состоят в какой-либо гильдии",
+      "difficulty": null,
+      "cost": 2,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/6?unit=2485153",
+      "statementHtml": "<p>Выведите игроков, которые состоят в какой-либо гильдии.</p>\n<p>Покажите никнейм и название гильдии.</p>\n<p>Результат отсортируйте по названию гильдии.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, guild\nFROM players\nWHERE guild IS NOT NULL\nORDER BY guild;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "guild"
+        ],
+        "rows": [
+          [
+            "CyberKing",
+            "Гидры Таталии"
+          ],
+          [
+            "SteppeEagle",
+            "Гидры Таталии"
+          ],
+          [
+            "FalconScout",
+            "Гидры Таталии"
+          ],
+          [
+            "AlphaKnight",
+            "Грифоны Эрафии"
+          ],
+          [
+            "MaxDrive",
+            "Грифоны Эрафии"
+          ],
+          [
+            "BalticStorm",
+            "Грифоны Эрафии"
+          ],
+          [
+            "SeaWolf",
+            "Грифоны Эрафии"
+          ],
+          [
+            "MoscowGuy",
+            "Грифоны Эрафии"
+          ],
+          [
+            "YarBear",
+            "Грифоны Эрафии"
+          ],
+          [
+            "KurskBird",
+            "Грифоны Эрафии"
+          ],
+          [
+            "AmurTiger",
+            "Громовые Птицы Крюлода"
+          ],
+          [
+            "DiamondUser",
+            "Громовые Птицы Крюлода"
+          ],
+          [
+            "TverWanderer",
+            "Древние Бегемоты"
+          ],
+          [
+            "AliceFox",
+            "Золотые Единороги Авли"
+          ],
+          [
+            "PhoenixRF",
+            "Золотые Единороги Авли"
+          ],
+          [
+            "SilentStream",
+            "Золотые Единороги Авли"
+          ],
+          [
+            "RiverMaid",
+            "Золотые Единороги Авли"
+          ],
+          [
+            "BaikalSeal",
+            "Мантикоры Подземелья"
+          ],
+          [
+            "KamchatkaCrab",
+            "Мантикоры Подземелья"
+          ],
+          [
+            "MountainQueen",
+            "Фениксы Конфлюкса"
+          ],
+          [
+            "PskovLynx",
+            "Фениксы Конфлюкса"
+          ],
+          [
+            "VologdaUser",
+            "Фениксы Конфлюкса"
+          ],
+          [
+            "Lia",
+            "Фениксы Конфлюкса"
+          ],
+          [
+            "NightWolf",
+            "Церберы Инферно"
+          ],
+          [
+            "GnomeMiner",
+            "Церберы Инферно"
+          ],
+          [
+            "ForestHunter",
+            "Церберы Инферно"
+          ],
+          [
+            "StormBringer",
+            "Церберы Инферно"
+          ],
+          [
+            "Meteorite",
+            "Церберы Инферно"
+          ],
+          [
+            "MagnetPoint",
+            "Церберы Инферно"
+          ],
+          [
+            "ThunderStrike",
+            "Черные Драконы Нигона"
+          ],
+          [
+            "SteelKnight",
+            "Черные Драконы Нигона"
+          ],
+          [
+            "SiberianLion",
+            "Черные Драконы Нигона"
+          ],
+          [
+            "SilverArrow",
+            "Черные Драконы Нигона"
+          ],
+          [
+            "AdmiralB",
+            "Черные Драконы Нигона"
+          ],
+          [
+            "CossackRider",
+            "Черные Драконы Нигона"
+          ],
+          [
+            "AltaiShaman",
+            "Черные Драконы Нигона"
+          ],
+          [
+            "RangerX",
+            "Черные Драконы Нигона"
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549833,
+      "position": 7,
+      "kind": "graded",
+      "title": "Выведите никнейм игрока и процент побед",
+      "difficulty": null,
+      "cost": 2,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/7?unit=2485153",
+      "statementHtml": "<p>Выведите никнейм игрока и процент побед.</p>\n<p>Используйте псевдоним <code>victory_rate</code> для столбца <code>win_rate</code>.</p>\n<p>Отсортируйте результат по проценту побед по убыванию.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname,\n       win_rate AS victory_rate\nFROM players\nORDER BY victory_rate DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "victory_rate"
+        ],
+        "rows": [
+          [
+            "AlphaKnight",
+            60
+          ],
+          [
+            "ThunderStrike",
+            56.84
+          ],
+          [
+            "Lia",
+            56.52
+          ],
+          [
+            "AdmiralB",
+            56.36
+          ],
+          [
+            "NightWolf",
+            55.07
+          ],
+          [
+            "SteelKnight",
+            54.72
+          ],
+          [
+            "SilverArrow",
+            54.39
+          ],
+          [
+            "AltaiShaman",
+            54.17
+          ],
+          [
+            "CyberKing",
+            54.1
+          ],
+          [
+            "BaikalSeal",
+            53.97
+          ],
+          [
+            "MaxDrive",
+            53.85
+          ],
+          [
+            "SiberianLion",
+            53.85
+          ],
+          [
+            "ForestHunter",
+            53.85
+          ],
+          [
+            "MountainQueen",
+            53.57
+          ],
+          [
+            "KamchatkaCrab",
+            53.51
+          ],
+          [
+            "BalticStorm",
+            53.33
+          ],
+          [
+            "AmurTiger",
+            53.33
+          ],
+          [
+            "DiamondUser",
+            52.88
+          ],
+          [
+            "CossackRider",
+            52.87
+          ],
+          [
+            "FalconScout",
+            52.86
+          ],
+          [
+            "MoscowGuy",
+            52.63
+          ],
+          [
+            "StormBringer",
+            52.56
+          ],
+          [
+            "YarBear",
+            52.46
+          ],
+          [
+            "RangerX",
+            52.44
+          ],
+          [
+            "SeaWolf",
+            52.31
+          ],
+          [
+            "BlackSea",
+            52
+          ],
+          [
+            "GnomeMiner",
+            51.91
+          ],
+          [
+            "MagnetPoint",
+            51.81
+          ],
+          [
+            "AliceFox",
+            51.72
+          ],
+          [
+            "KurskBird",
+            51.44
+          ],
+          [
+            "PhoenixRF",
+            51.28
+          ],
+          [
+            "Meteorite",
+            51.16
+          ],
+          [
+            "RiverMaid",
+            51.02
+          ],
+          [
+            "VologdaUser",
+            50.85
+          ],
+          [
+            "ShieldWall",
+            50.71
+          ],
+          [
+            "Fisherman",
+            49.23
+          ],
+          [
+            "PskovLynx",
+            48.73
+          ],
+          [
+            "SteppeEagle",
+            48.48
+          ],
+          [
+            "SilentStream",
+            48.33
+          ],
+          [
+            "StarDust",
+            48.28
+          ],
+          [
+            "RyazanRider",
+            48
+          ],
+          [
+            "TulaBaker",
+            47.5
+          ],
+          [
+            "NorthLight",
+            45
+          ],
+          [
+            "TverWanderer",
+            44.44
+          ],
+          [
+            "CheeseLover",
+            42.31
+          ],
+          [
+            "WindChange",
+            41.67
+          ],
+          [
+            "LipetskBoy",
+            35
+          ],
+          [
+            "CatQueen",
+            33.33
+          ],
+          [
+            "KazanCat",
+            25
+          ],
+          [
+            "PrinceX",
+            20
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549837,
+      "position": 8,
+      "kind": "graded",
+      "title": "Выведите игроков ранга Gold",
+      "difficulty": null,
+      "cost": 2,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/8?unit=2485153",
+      "statementHtml": "<p>Выведите игроков ранга Gold.</p>\n<p>Покажите никнейм, рейтинг и звание.</p>\n<p>Отсортируйте по рейтингу по убыванию.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, rating, rank_title\nFROM players\nWHERE rank_title = 'Gold'\nORDER BY rating DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "rating",
+          "rank_title"
+        ],
+        "rows": [
+          [
+            "AmurTiger",
+            2500,
+            "Gold"
+          ],
+          [
+            "CossackRider",
+            2450,
+            "Gold"
+          ],
+          [
+            "MaxDrive",
+            2400,
+            "Gold"
+          ],
+          [
+            "Lia",
+            2380,
+            "Gold"
+          ],
+          [
+            "RangerX",
+            2350,
+            "Gold"
+          ],
+          [
+            "StormBringer",
+            2300,
+            "Gold"
+          ],
+          [
+            "PhoenixRF",
+            2200,
+            "Gold"
+          ],
+          [
+            "FalconScout",
+            2150,
+            "Gold"
+          ],
+          [
+            "AlphaKnight",
+            2100,
+            "Gold"
+          ],
+          [
+            "MagnetPoint",
+            2080,
+            "Gold"
+          ],
+          [
+            "SeaWolf",
+            2050,
+            "Gold"
+          ],
+          [
+            "YarBear",
+            2000,
+            "Gold"
+          ],
+          [
+            "MoscowGuy",
+            1980,
+            "Gold"
+          ],
+          [
+            "CyberKing",
+            1950,
+            "Gold"
+          ],
+          [
+            "ShieldWall",
+            1900,
+            "Gold"
+          ],
+          [
+            "BlackSea",
+            1800,
+            "Gold"
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549839,
+      "position": 9,
+      "kind": "graded",
+      "title": "Выведите игроков, которые имеют уровень выше 40 и рейтинг выше 2000",
+      "difficulty": null,
+      "cost": 3,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/9?unit=2485153",
+      "statementHtml": "<p>Выведите игроков, которые имеют уровень выше 40 и рейтинг выше 2000.</p>\n<p>Покажите никнейм, уровень и рейтинг.</p>\n<p>Отсортируйте сначала по рейтингу по убыванию, затем по уровню по убыванию.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, level, rating\nFROM players\nWHERE level > 40\n  AND rating > 2000\nORDER BY rating DESC, level DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "level",
+          "rating"
+        ],
+        "rows": [
+          [
+            "AdmiralB",
+            91,
+            3600
+          ],
+          [
+            "ThunderStrike",
+            89,
+            3450
+          ],
+          [
+            "SiberianLion",
+            82,
+            3200
+          ],
+          [
+            "MountainQueen",
+            77,
+            3100
+          ],
+          [
+            "AltaiShaman",
+            72,
+            2980
+          ],
+          [
+            "ForestHunter",
+            70,
+            2950
+          ],
+          [
+            "NightWolf",
+            73,
+            2900
+          ],
+          [
+            "BaikalSeal",
+            68,
+            2850
+          ],
+          [
+            "BalticStorm",
+            67,
+            2800
+          ],
+          [
+            "KamchatkaCrab",
+            63,
+            2750
+          ],
+          [
+            "SilverArrow",
+            64,
+            2700
+          ],
+          [
+            "SteelKnight",
+            61,
+            2650
+          ],
+          [
+            "DiamondUser",
+            60,
+            2600
+          ],
+          [
+            "AmurTiger",
+            58,
+            2500
+          ],
+          [
+            "CossackRider",
+            57,
+            2450
+          ],
+          [
+            "MaxDrive",
+            55,
+            2400
+          ],
+          [
+            "Lia",
+            52,
+            2380
+          ],
+          [
+            "RangerX",
+            53,
+            2350
+          ],
+          [
+            "StormBringer",
+            52,
+            2300
+          ],
+          [
+            "PhoenixRF",
+            50,
+            2200
+          ],
+          [
+            "FalconScout",
+            49,
+            2150
+          ],
+          [
+            "AlphaKnight",
+            45,
+            2100
+          ],
+          [
+            "MagnetPoint",
+            46,
+            2080
+          ],
+          [
+            "SeaWolf",
+            48,
+            2050
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10549842,
+      "position": 10,
+      "kind": "graded",
+      "title": "Выведите никнейм игрока, город и рейтинг",
+      "difficulty": null,
+      "cost": 3,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/10?unit=2485153",
+      "statementHtml": "<p>Выведите никнейм игрока, город и рейтинг.</p>\n<p>Для рейтинга используйте псевдоним <code>player_rating</code>.</p>\n<p>Необходимо выбрать только игроков из Москвы, Санкт-Петербурга и Екатеринбурга.</p>\n<p>Результат отсортируйте по рейтингу по убыванию.</p>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname,\n       city,\n       rating AS player_rating\nFROM players\nWHERE city IN ('Москва', 'Санкт-Петербург', 'Екатеринбург')\nORDER BY player_rating DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "city",
+          "player_rating"
+        ],
+        "rows": [
+          [
+            "AdmiralB",
+            "Санкт-Петербург",
+            3600
+          ],
+          [
+            "MountainQueen",
+            "Екатеринбург",
+            3100
+          ],
+          [
+            "AlphaKnight",
+            "Москва",
+            2100
+          ],
+          [
+            "MoscowGuy",
+            "Москва",
+            1980
+          ],
+          [
+            "AliceFox",
+            "Екатеринбург",
+            1500
+          ],
+          [
+            "CatQueen",
+            "Санкт-Петербург",
+            850
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10550241,
+      "position": 11,
+      "kind": "graded",
+      "title": "В этой задаче вам предстоит выступить в роли SQL-разработчика работающего в команде",
+      "difficulty": null,
+      "cost": 3,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/11?unit=2485153",
+      "statementHtml": "<p><strong>В этой задаче вам предстоит выступить в роли SQL-разработчика работающего в команде.</strong></p>\n<p>Ниже приведён сломанный SQL-запрос, который содержит одну или несколько ошибок.</p>\n<p>Ваша задача — внимательно изучить описание ожидаемого результата, проанализировать запрос и определить, какие части работают неправильно.</p>\n<p>Исправьте запрос таким образом, чтобы он возвращал именно тот результат, который описан в условии задачи.</p>\n<p>Обратите внимание:</p>\n<ul>\n<li>ошибок может быть несколько;</li>\n<li>запрос может выполняться, но возвращать неверные данные;</li>\n<li>могут быть ошибки в выборе столбцов, фильтрации, сортировке или использовании псевдонимов.</li>\n</ul>\n<p>После исправления запрос должен полностью соответствовать ожидаемому результату.</p>\n<p>Необходимо вывести никнейм игрока, город и рейтинг.</p>\n<p>Выберите только игроков из Москвы и Санкт-Петербурга.</p>\n<p>Результат отсортируйте по рейтингу по убыванию.</p>\n<p><strong>Сломанный запрос:</strong></p>\n<pre><code>FROM players\nSELECT nickname, city, level\nWHERE city = 'Москва', city = 'Санкт-Петербург'\nORDER BY city DESC;\n</code></pre>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, city, rating\nFROM players\nWHERE city IN ('Москва', 'Санкт-Петербург')\nORDER BY rating DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "city",
+          "rating"
+        ],
+        "rows": [
+          [
+            "AdmiralB",
+            "Санкт-Петербург",
+            3600
+          ],
+          [
+            "AlphaKnight",
+            "Москва",
+            2100
+          ],
+          [
+            "MoscowGuy",
+            "Москва",
+            1980
+          ],
+          [
+            "CatQueen",
+            "Санкт-Петербург",
+            850
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10550247,
+      "position": 12,
+      "kind": "graded",
+      "title": "В этой задаче вам предстоит выступить в роли SQL-разработчика работающего в команде",
+      "difficulty": null,
+      "cost": 3,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/12?unit=2485153",
+      "statementHtml": "<p><strong>В этой задаче вам предстоит выступить в роли SQL-разработчика работающего в команде.</strong></p>\n<p>Ниже приведён сломанный SQL-запрос, который содержит одну или несколько ошибок.</p>\n<p>Ваша задача — внимательно изучить описание ожидаемого результата, проанализировать запрос и определить, какие части работают неправильно.</p>\n<p>Исправьте запрос таким образом, чтобы он возвращал именно тот результат, который описан в условии задачи.</p>\n<p>Обратите внимание:</p>\n<ul>\n<li>ошибок может быть несколько;</li>\n<li>запрос может выполняться, но возвращать неверные данные;</li>\n<li>могут быть ошибки в выборе столбцов, фильтрации, сортировке или использовании псевдонимов.</li>\n</ul>\n<p>После исправления запрос должен полностью соответствовать ожидаемому результату.</p>\n<p>Необходимо вывести никнейм игрока, уровень и рейтинг.</p>\n<p>Выберите только игроков с уровнем выше 40.</p>\n<p>Результат должен быть отсортирован по рейтингу по убыванию.</p>\n<p><strong>Сломанный запрос:</strong></p>\n<pre><code>SELECT nickname, level, rating\nFROM players\nWHERE level lower 40\nORDER BY\n</code></pre>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname, level, rating\nFROM players\nWHERE level > 40\nORDER BY rating DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "level",
+          "rating"
+        ],
+        "rows": [
+          [
+            "AdmiralB",
+            91,
+            3600
+          ],
+          [
+            "ThunderStrike",
+            89,
+            3450
+          ],
+          [
+            "SiberianLion",
+            82,
+            3200
+          ],
+          [
+            "MountainQueen",
+            77,
+            3100
+          ],
+          [
+            "AltaiShaman",
+            72,
+            2980
+          ],
+          [
+            "ForestHunter",
+            70,
+            2950
+          ],
+          [
+            "NightWolf",
+            73,
+            2900
+          ],
+          [
+            "BaikalSeal",
+            68,
+            2850
+          ],
+          [
+            "BalticStorm",
+            67,
+            2800
+          ],
+          [
+            "KamchatkaCrab",
+            63,
+            2750
+          ],
+          [
+            "SilverArrow",
+            64,
+            2700
+          ],
+          [
+            "SteelKnight",
+            61,
+            2650
+          ],
+          [
+            "DiamondUser",
+            60,
+            2600
+          ],
+          [
+            "AmurTiger",
+            58,
+            2500
+          ],
+          [
+            "CossackRider",
+            57,
+            2450
+          ],
+          [
+            "MaxDrive",
+            55,
+            2400
+          ],
+          [
+            "Lia",
+            52,
+            2380
+          ],
+          [
+            "RangerX",
+            53,
+            2350
+          ],
+          [
+            "StormBringer",
+            52,
+            2300
+          ],
+          [
+            "PhoenixRF",
+            50,
+            2200
+          ],
+          [
+            "FalconScout",
+            49,
+            2150
+          ],
+          [
+            "AlphaKnight",
+            45,
+            2100
+          ],
+          [
+            "MagnetPoint",
+            46,
+            2080
+          ],
+          [
+            "SeaWolf",
+            48,
+            2050
+          ],
+          [
+            "YarBear",
+            44,
+            2000
+          ],
+          [
+            "MoscowGuy",
+            42,
+            1980
+          ],
+          [
+            "ShieldWall",
+            41,
+            1900
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    },
+    {
+      "stepId": 10550272,
+      "position": 13,
+      "kind": "graded",
+      "title": "В этой задаче вам предстоит выступить в роли SQL-разработчика работающего в команде",
+      "difficulty": null,
+      "cost": 3,
+      "stepikUrl": "https://stepik.org/lesson/2447854/step/13?unit=2485153",
+      "statementHtml": "<p><strong>В этой задаче вам предстоит выступить в роли SQL-разработчика работающего в команде.</strong></p>\n<p>Ниже приведён сломанный SQL-запрос, который содержит одну или несколько ошибок.</p>\n<p>Ваша задача — внимательно изучить описание ожидаемого результата, проанализировать запрос и определить, какие части работают неправильно.</p>\n<p>Исправьте запрос таким образом, чтобы он возвращал именно тот результат, который описан в условии задачи.</p>\n<p>Обратите внимание:</p>\n<ul>\n<li>ошибок может быть несколько;</li>\n<li>запрос может выполняться, но возвращать неверные данные;</li>\n<li>могут быть ошибки в выборе столбцов, фильтрации, сортировке или использовании псевдонимов.</li>\n</ul>\n<p>После исправления запрос должен полностью соответствовать ожидаемому результату.</p>\n<p>Необходимо вывести никнейм игрока и процент побед.</p>\n<p>Используйте поле <code>win_rate</code>, но переименуйте его в <code>victory_rate</code>.</p>\n<p>Выберите только игроков с процентом побед выше 50%.</p>\n<p>Результат должен быть отсортирован по проценту побед по убыванию.</p>\n<p><strong>Сломанный запрос:</strong></p>\n<pre><code>SELECT nickname,\n       wins AS\nFROM players\nWHERE \nORDER BY victory_rate;\n</code></pre>",
+      "databaseId": "course-db-1",
+      "referenceSolution": "SELECT nickname,\n       win_rate AS victory_rate\nFROM players\nWHERE win_rate > 50\nORDER BY victory_rate DESC;",
+      "expectedResult": {
+        "columns": [
+          "nickname",
+          "victory_rate"
+        ],
+        "rows": [
+          [
+            "AlphaKnight",
+            60
+          ],
+          [
+            "ThunderStrike",
+            56.84
+          ],
+          [
+            "Lia",
+            56.52
+          ],
+          [
+            "AdmiralB",
+            56.36
+          ],
+          [
+            "NightWolf",
+            55.07
+          ],
+          [
+            "SteelKnight",
+            54.72
+          ],
+          [
+            "SilverArrow",
+            54.39
+          ],
+          [
+            "AltaiShaman",
+            54.17
+          ],
+          [
+            "CyberKing",
+            54.1
+          ],
+          [
+            "BaikalSeal",
+            53.97
+          ],
+          [
+            "MaxDrive",
+            53.85
+          ],
+          [
+            "SiberianLion",
+            53.85
+          ],
+          [
+            "ForestHunter",
+            53.85
+          ],
+          [
+            "MountainQueen",
+            53.57
+          ],
+          [
+            "KamchatkaCrab",
+            53.51
+          ],
+          [
+            "BalticStorm",
+            53.33
+          ],
+          [
+            "AmurTiger",
+            53.33
+          ],
+          [
+            "DiamondUser",
+            52.88
+          ],
+          [
+            "CossackRider",
+            52.87
+          ],
+          [
+            "FalconScout",
+            52.86
+          ],
+          [
+            "MoscowGuy",
+            52.63
+          ],
+          [
+            "StormBringer",
+            52.56
+          ],
+          [
+            "YarBear",
+            52.46
+          ],
+          [
+            "RangerX",
+            52.44
+          ],
+          [
+            "SeaWolf",
+            52.31
+          ],
+          [
+            "BlackSea",
+            52
+          ],
+          [
+            "GnomeMiner",
+            51.91
+          ],
+          [
+            "MagnetPoint",
+            51.81
+          ],
+          [
+            "AliceFox",
+            51.72
+          ],
+          [
+            "KurskBird",
+            51.44
+          ],
+          [
+            "PhoenixRF",
+            51.28
+          ],
+          [
+            "Meteorite",
+            51.16
+          ],
+          [
+            "RiverMaid",
+            51.02
+          ],
+          [
+            "VologdaUser",
+            50.85
+          ],
+          [
+            "ShieldWall",
+            50.71
+          ]
+        ]
+      },
+      "orderSensitive": true,
+      "multipleStatementsAllowed": false
+    }
+  ]
+}

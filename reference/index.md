@@ -1,7 +1,7 @@
 ---
 title: "Справочник по SQL: синтаксис под рукой"
 seo_title: "Справочник по SQL: синтаксис и примеры — SQL с нуля до результата"
-description: "Шпаргалка по SQL: SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции, INSERT и DELETE. Короткие примеры для SQLite, копирование и проверка в песочнице."
+description: "Шпаргалка по SQL: SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции, INSERT и DELETE. Короткие примеры для SQLite и готовые шаблоны для копирования."
 canonical_url: "https://sql.sergeyromanenko.com/reference/"
 markdown_url: "https://sql.sergeyromanenko.com/reference/index.md"
 section: "Site"
@@ -13,7 +13,7 @@ robots: "index, follow, max-image-preview:large"
 
 # Справочник по SQL: синтаксис под рукой
 
-Форма записи, готовый пример и две заметки о том, где чаще всего ошибаются. Примеры выполняются в SQLite, если не указано иное.
+Форма записи, готовый пример и две заметки о том, где чаще всего ошибаются. Примеры выполняются в SQLite, если не указано иное, и используют демонстрационную схему customers / products / orders.
 
 Программа обучения →
 
@@ -25,95 +25,97 @@ robots: "index, follow, max-image-preview:large"
 
 1. 01Найдите тему в содержании.
 2. 02Скопируйте пример кнопкой в блоке.
-3. 03Вставьте его в песочницу и выполните.
+3. 03Подставьте таблицы из своей базы: в песочнице это «Игроки» или «Интернет-магазин».
 
 Шаблон — форма записи с русскими подсказками.
 
 Пример — готовый запрос для копирования.
 
+Таблицы customers, products и orders — демонстрационные; в песочнице создайте их в скрипте схемы или замените на свои.
+
 Открыть песочницу →
 
 Содержание
 
-14 тем · обновлено 31 октября 2026
+14 тем · обновлено 8 ноября 2026
 
 Основы выборки
 
-1. SELECT
-2. WHERE
-3. ORDER BY и LIMIT
-4. DISTINCT
+1. 01SELECT
+2. 02WHERE
+3. 03ORDER BY и LIMIT
+4. 04DISTINCT
 
 Группировка
 
-1. GROUP BY и HAVING
+1. 05GROUP BY и HAVING
 
 Соединения
 
-1. JOIN
+1. 06JOIN
 
 Логика и значения
 
-1. NULL
-2. CASE
-3. IN, BETWEEN, LIKE
+1. 07NULL
+2. 08CASE
+3. 09IN, BETWEEN, LIKE
 
 Сложные запросы
 
-1. UNION и UNION ALL
-2. Подзапросы и CTE
-3. Оконные функции
+1. 10UNION и UNION ALL
+2. 11Подзапросы и CTE
+3. 12Оконные функции
 
 Изменение данных
 
-1. INSERT, UPDATE, DELETE
+1. 13INSERT, UPDATE, DELETE
 
 Диалекты
 
-1. Диалекты SQL
+1. 14Диалекты SQL
 
 **Содержание14 тем**
 
 Основы выборки
 
-1. SELECT
-2. WHERE
-3. ORDER BY и LIMIT
-4. DISTINCT
+1. 01SELECT
+2. 02WHERE
+3. 03ORDER BY и LIMIT
+4. 04DISTINCT
 
 Группировка
 
-1. GROUP BY и HAVING
+1. 05GROUP BY и HAVING
 
 Соединения
 
-1. JOIN
+1. 06JOIN
 
 Логика и значения
 
-1. NULL
-2. CASE
-3. IN, BETWEEN, LIKE
+1. 07NULL
+2. 08CASE
+3. 09IN, BETWEEN, LIKE
 
 Сложные запросы
 
-1. UNION и UNION ALL
-2. Подзапросы и CTE
-3. Оконные функции
+1. 10UNION и UNION ALL
+2. 11Подзапросы и CTE
+3. 12Оконные функции
 
 Изменение данных
 
-1. INSERT, UPDATE, DELETE
+1. 13INSERT, UPDATE, DELETE
 
 Диалекты
 
-1. Диалекты SQL
+1. 14Диалекты SQL
 
 Основы выборки
 
 4
 
-## SELECT
+## 01SELECT
 
 #select
 
@@ -149,7 +151,7 @@ ORDER BY name;
 
 Курс [«SQL Введение» →](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
-## WHERE
+## 02WHERE
 
 #where
 
@@ -182,7 +184,7 @@ WHERE price BETWEEN 5000 AND 50000
 
 Курс [«SQL Условная логика» →](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)
 
-## ORDER BY и LIMIT
+## 03ORDER BY и LIMIT
 
 #order-limit
 
@@ -213,7 +215,7 @@ LIMIT 3;
 - Без ORDER BY порядок строк не гарантирован, даже если он кажется стабильным.
 - LIMIT без сортировки не отвечает на вопрос «самые дорогие»: сначала задайте порядок.
 
-## DISTINCT
+## 04DISTINCT
 
 #distinct
 
@@ -247,7 +249,7 @@ ORDER BY city;
 
 1
 
-## GROUP BY и HAVING
+## 05GROUP BY и HAVING
 
 #group-having
 
@@ -287,7 +289,7 @@ ORDER BY orders_count DESC;
 
 1
 
-## JOIN
+## 06JOIN
 
 #join
 
@@ -324,7 +326,7 @@ ORDER BY o.ordered_at DESC;
 
 3
 
-## NULL
+## 07NULL
 
 #null
 
@@ -354,7 +356,7 @@ WHERE city IS NULL;
 - NULL — не ноль и не пустая строка; сравнение с ним даёт UNKNOWN, а не TRUE.
 - COUNT(столбец) и AVG(столбец) пропускают NULL, а COUNT(*) считает все строки.
 
-## CASE
+## 08CASE
 
 #case
 
@@ -391,7 +393,7 @@ FROM products;
 - CASE работает в SELECT, ORDER BY, GROUP BY и внутри агрегатных функций.
 - Без ELSE результат будет NULL, а не исходное значение.
 
-## IN, BETWEEN, LIKE
+## 09IN, BETWEEN, LIKE
 
 #in-between-like
 
@@ -427,7 +429,7 @@ WHERE city IN ('Москва', 'Санкт-Петербург')
 
 3
 
-## UNION и UNION ALL
+## 10UNION и UNION ALL
 
 #union
 
@@ -460,7 +462,7 @@ ORDER BY label;
 - UNION удаляет дубликаты, UNION ALL оставляет все строки и обычно работает быстрее.
 - Число и типы столбцов должны совпадать; ORDER BY пишется один раз в конце.
 
-## Подзапросы и CTE
+## 11Подзапросы и CTE
 
 #cte
 
@@ -501,7 +503,7 @@ GROUP BY c.id, c.name;
 
 Курс [«SQL Общие табличные выражения» →](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)
 
-## Оконные функции
+## 12Оконные функции
 
 #window
 
@@ -545,7 +547,7 @@ FROM products;
 
 1
 
-## INSERT, UPDATE, DELETE
+## 13INSERT, UPDATE, DELETE
 
 #dml
 
@@ -583,7 +585,7 @@ WHERE id = 1
 
 1
 
-## Диалекты SQL
+## 14Диалекты SQL
 
 #dialects
 

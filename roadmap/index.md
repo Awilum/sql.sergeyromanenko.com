@@ -33,7 +33,7 @@ robots: "index, follow, max-image-preview:large"
 
 7 курсов
 
-79 участников
+78 участников
 
 Состав программы
 
@@ -51,7 +51,7 @@ robots: "index, follow, max-image-preview:large"
   ### [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)
   Начальный
   19 уроков
-  2 893 учеников
+  2 998 учеников
   ★ 4,92
   Бесплатно
   Подробнее
@@ -67,7 +67,7 @@ robots: "index, follow, max-image-preview:large"
   ### [SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
   Начальный
   85 уроков
-  904 учеников
+  905 учеников
   ★ 4,75
   Платно
   Подробнее
@@ -83,7 +83,7 @@ robots: "index, follow, max-image-preview:large"
   ### [Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)
   Начальный
   26 уроков
-  2 304 учеников
+  2 305 учеников
   ★ 4,87
   Платно
   Подробнее
@@ -99,7 +99,7 @@ robots: "index, follow, max-image-preview:large"
   ### [SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)
   Средний
   28 уроков
-  599 учеников
+  600 учеников
   ★ 5,00
   Платно
   Подробнее
@@ -147,7 +147,7 @@ robots: "index, follow, max-image-preview:large"
   ### [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)
   Средний
   17 уроков
-  926 учеников
+  945 учеников
   ★ 4,68
   Бесплатно
   Подробнее
