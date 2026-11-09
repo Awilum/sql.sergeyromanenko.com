@@ -29,6 +29,8 @@ robots: "index, follow, max-image-preview:large"
 
 Платно
 
+Есть промокод
+
 7 курсов
 
 78 участников
@@ -77,9 +79,9 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 4,75
 
-Есть промокод
-
 Платно
+
+Есть промокод
 
 Подробнее
 
@@ -99,9 +101,9 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 4,87
 
-Есть промокод
-
 Платно
+
+Есть промокод
 
 Подробнее
 
@@ -121,9 +123,9 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 5,00
 
-Есть промокод
-
 Платно
+
+Есть промокод
 
 Подробнее
 
@@ -143,9 +145,9 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 4,94
 
-Есть промокод
-
 Платно
+
+Есть промокод
 
 Подробнее
 
@@ -165,9 +167,9 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 4,91
 
-Есть промокод
-
 Платно
+
+Есть промокод
 
 Подробнее
 
