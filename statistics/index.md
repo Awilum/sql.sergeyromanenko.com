@@ -17,21 +17,21 @@ robots: "index, follow, max-image-preview:large"
 
 Снимок
 
-8 ноября 2026
+9 ноября 2026
 
-7 отдельных курсов и 1 программа. Всего 8 671 учащихся и 293 отзывов.
+7 курсов и 1 программа. Всего 8 699 учащихся и 296 отзывов.
 
 Открыть Stepik Stats →
 
 01
 
-8 671
+8 699
 
 Учащихся, изучающих SQL на Stepik
 
 02
 
-293
+296
 
 Отзывов на SQL курсах
 
@@ -50,13 +50,13 @@ robots: "index, follow, max-image-preview:large"
 | Курс | Тип | Учащиеся | Отзывы | Рейтинг | Уроки | Цена |
 | --- | --- | --- | --- | --- | --- | --- |
 | [SQL с нуля до результата](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/)ID 279994 | Программа | 78 | 0 | — | 226 | Платно |
-| [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)ID 290855 | Курс | 2 998 | 100 | 4,92 | 19 | Бесплатно |
+| [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)ID 290855 | Курс | 3 020 | 102 | 4,92 | 19 | Бесплатно |
 | [SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)ID 133728 | Курс | 905 | 77 | 4,75 | 85 | Платно |
 | [Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)ID 279399 | Курс | 2 305 | 30 | 4,87 | 26 | Платно |
 | [SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)ID 295190 | Курс | 600 | 12 | 5,00 | 28 | Платно |
 | [SQL Общие табличные выражения](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)ID 294493 | Курс | 396 | 18 | 4,94 | 17 | Платно |
 | [SQL Оконные функции](https://sql.sergeyromanenko.com/courses/sql-window-functions/)ID 282146 | Курс | 522 | 22 | 4,91 | 34 | Платно |
-| [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)ID 280145 | Курс | 945 | 34 | 4,68 | 17 | Бесплатно |
+| [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)ID 280145 | Курс | 951 | 35 | 4,69 | 17 | Бесплатно |
 
 ## Как собираются данные
 
@@ -80,7 +80,7 @@ robots: "index, follow, max-image-preview:large"
 
 Исходные значения можно посмотреть в публичном профиле [StepStat](https://stepstat.ru/user/561566563) и на страницах курсов Stepik.
 
-Дата последнего обновления: 8 ноября 2026. Схема снимка: версия 1.
+Дата последнего обновления: 9 ноября 2026. Схема снимка: версия 1.
 
 Поля снимка
 

@@ -16,7 +16,7 @@ Each canonical page has an `index.md` representation in the same directory (for 
 
 ## Courses
 
-- [Курсы по SQL: от первого запроса до аналитики](https://sql.sergeyromanenko.com/courses/): Восемь отдельных SQL-курсов и программа «SQL с нуля до результата»: основы, JOIN, условная логика, CTE, оконные функции и подготовка к собеседованию. Проверенные ссылки и актуальная статистика.
+- [Курсы по SQL: от первого запроса до аналитики](https://sql.sergeyromanenko.com/courses/): Семь отдельных SQL-курсов и одна программа «SQL с нуля до результата»: основы, JOIN, условная логика, CTE, оконные функции и подготовка к собеседованию. Проверенные ссылки и актуальная статистика.
   - [Markdown](https://sql.sergeyromanenko.com/courses/index.md)
 - [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/): Бесплатный вводный курс по SQL: таблицы, SELECT, фильтрация, сортировка, агрегаты и группировка. 19 уроков и практика на Stepik. Проверенные факты и программа.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-introduction/index.md)
