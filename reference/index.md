@@ -19,6 +19,8 @@ robots: "index, follow, max-image-preview:large"
 
 Песочница SQLite →
 
+Скачать PDF
+
 Справочник не заменяет курс: здесь нет пошаговых объяснений и упражнений. Начать бесплатно можно с курса [«SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/).
 
 Как пользоваться
