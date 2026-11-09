@@ -69,6 +69,7 @@ robots: "index, follow, max-image-preview:large"
   85 уроков
   905 учеников
   ★ 4,75
+  Есть промокод
   Платно
   Подробнее
 3. 03
@@ -85,6 +86,7 @@ robots: "index, follow, max-image-preview:large"
   26 уроков
   2 305 учеников
   ★ 4,87
+  Есть промокод
   Платно
   Подробнее
 4. 04
@@ -101,6 +103,7 @@ robots: "index, follow, max-image-preview:large"
   28 уроков
   600 учеников
   ★ 5,00
+  Есть промокод
   Платно
   Подробнее
 5. 05
@@ -117,6 +120,7 @@ robots: "index, follow, max-image-preview:large"
   17 уроков
   396 учеников
   ★ 4,94
+  Есть промокод
   Платно
   Подробнее
 6. 06
@@ -133,6 +137,7 @@ robots: "index, follow, max-image-preview:large"
   34 урока
   522 учеников
   ★ 4,91
+  Есть промокод
   Платно
   Подробнее
 7. 07

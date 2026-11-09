@@ -1,7 +1,7 @@
 ---
 title: "SQL Оконные функции"
 seo_title: "SQL: оконные функции — курс с практикой — SQL с нуля до результата"
-description: "Курс по оконным функциям SQL: OVER, PARTITION BY, RANK, LAG, LEAD и рамки окна. 34 урока, программа и проверенные факты на Stepik."
+description: "Курс по оконным функциям SQL: OVER, PARTITION BY, RANK, LAG, LEAD и рамки окна. 34 уроков, программа и проверенные факты на Stepik."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-window-functions/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-window-functions/index.md"
 section: "Courses"
@@ -118,6 +118,24 @@ SELECT, WHERE, GROUP BY, HAVING и агрегатные функции. JOIN и 
 Теория, тесты и практические задачи. Синтаксис MySQL.
 
 Платный курс. В программе 34 урока.
+
+## Промокоды для этого курса
+
+Для этого курса доступны следующие промокоды, которые можно применить непосредственно на платформе Stepik.
+
+ДЕЙСТВУЕТ
+
+### Действующий промокод
+
+WELCOME2026
+
+Скопировать промокод
+
+Доступен для этого курса на платформе Stepik.
+
+- **Срок действия:** До 31 декабря 2026 года включительно
+
+Перейти на Stepik
 
 ## О диалекте SQL
 

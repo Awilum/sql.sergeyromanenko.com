@@ -77,6 +77,8 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 4,75
 
+Есть промокод
+
 Платно
 
 Подробнее
@@ -96,6 +98,8 @@ robots: "index, follow, max-image-preview:large"
 2 305 учеников
 
 ★ 4,87
+
+Есть промокод
 
 Платно
 
@@ -117,6 +121,8 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 5,00
 
+Есть промокод
+
 Платно
 
 Подробнее
@@ -137,6 +143,8 @@ robots: "index, follow, max-image-preview:large"
 
 ★ 4,94
 
+Есть промокод
+
 Платно
 
 Подробнее
@@ -156,6 +164,8 @@ robots: "index, follow, max-image-preview:large"
 522 учеников
 
 ★ 4,91
+
+Есть промокод
 
 Платно
 
