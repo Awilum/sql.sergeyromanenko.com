@@ -35,6 +35,13 @@ Each canonical page has an `index.md` representation in the same directory (for 
 - [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/): Бесплатный курс-тест по SQL для подготовки к собеседованию: ключевые темы, пробелы в знаниях и 17 уроков. Проверенные факты и программа.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/index.md)
 
+## Games
+
+- [SQL Игры](https://sql.sergeyromanenko.com/games/): Интерактивные обучающие игры по SQL. Закрепляйте материал курсов, тренируйте память и проверяйте понимание команд, функций и синтаксиса в игровом формате.
+  - [Markdown](https://sql.sergeyromanenko.com/games/index.md)
+- [SQL Memory Match](https://sql.sergeyromanenko.com/games/memory-match/): Интерактивная игра на поиск пар для закрепления основ SQL: команды, функции, фильтрация, агрегаты. Тренируйте память и проверяйте знания курса «SQL Введение».
+  - [Markdown](https://sql.sergeyromanenko.com/games/memory-match/index.md)
+
 ## About
 
 - [Сергей Романенко](https://sql.sergeyromanenko.com/about/): SQL с нуля до результата: образовательная экосистема — учебный путь, справочник SQL, песочница SQLite и интерактивный тренажёр с проверкой, прогрессом и достижениями.
