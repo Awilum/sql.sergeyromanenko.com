@@ -36,6 +36,7 @@ robots: "index, follow, max-image-preview:large"
   - [Отзывы](https://sql.sergeyromanenko.com/reviews/) — Отзывы учащихся о SQL-курсах: реальные впечатления без правок и сокращений
   - [Песочница SQL](https://sql.sergeyromanenko.com/sandbox/) — SQLite в браузере с учебными базами
   - [Тренажёр SQL](https://sql.sergeyromanenko.com/trainer/) — 39 практических задач с проверкой, достижения и сертификаты
+  - [Сертификаты](https://sql.sergeyromanenko.com/certificate/) — Именные сертификаты тренажёра, тематических миссий и игр — PNG и передача по ссылке
   - [Промокоды](https://sql.sergeyromanenko.com/promo-codes/) — Действующие промокоды на SQL-курсы
   - [Игры](https://sql.sergeyromanenko.com/games/) — Интерактивные игры для закрепления SQL-навыков
     - [SQL Memory Match](https://sql.sergeyromanenko.com/games/memory-match/)

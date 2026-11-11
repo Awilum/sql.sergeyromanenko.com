@@ -59,10 +59,12 @@ Each canonical page has an `index.md` representation in the same directory (for 
   - [Markdown](https://sql.sergeyromanenko.com/sitemap/index.md)
 - [Песочница SQL](https://sql.sergeyromanenko.com/sandbox/): Пишите и выполняйте SQL-запросы прямо в браузере. Две учебные базы: «Игроки» и «Интернет-магазин». Свой скрипт схемы, импорт и экспорт базы, экспорт результатов. Без регистрации и установки.
   - [Markdown](https://sql.sergeyromanenko.com/sandbox/index.md)
-- [Политика конфиденциальности](https://sql.sergeyromanenko.com/privacy-policy/): Политика конфиденциальности сайта SQL с нуля до результата. Отсутствие регистрации, форм сбора данных, аналитики и пользовательских баз данных. Локальная работа SQL-песочницы в браузере.
+- [Политика конфиденциальности](https://sql.sergeyromanenko.com/privacy-policy/): Политика конфиденциальности сайта SQL с нуля до результата. Отсутствие регистрации, форм сбора данных и пользовательских баз данных. Локальная работа SQL-песочницы в браузере.
   - [Markdown](https://sql.sergeyromanenko.com/privacy-policy/index.md)
 - [Промокоды на курсы SQL](https://sql.sergeyromanenko.com/promo-codes/): Действующие промокоды на курсы SQL Сергея Романенко. Скопируйте промокод и примените его непосредственно на платформе Stepik.
   - [Markdown](https://sql.sergeyromanenko.com/promo-codes/index.md)
+- [Сертификаты ваших достижений в SQL](https://sql.sergeyromanenko.com/certificate/): Именные сертификаты SQL-тренажёра, тематических миссий и SQL Memory Match. Скачивание PNG высокого разрешения и передача сертификата по ссылке. Формируются прямо в браузере.
+  - [Markdown](https://sql.sergeyromanenko.com/certificate/index.md)
 - [Справочник по SQL: синтаксис под рукой](https://sql.sergeyromanenko.com/reference/): Шпаргалка по SQL: SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции, INSERT и DELETE. Короткие примеры для SQLite и готовые шаблоны для копирования.
   - [Markdown](https://sql.sergeyromanenko.com/reference/index.md)
 - [Статистика без магии](https://sql.sergeyromanenko.com/statistics/): Снимок публичной статистики SQL-курсов Stepik: учащиеся, отзывы, уроки и базовые цены. Источник, дата обновления, ограничения и правила показа данных.
