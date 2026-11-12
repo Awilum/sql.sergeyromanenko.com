@@ -1,4 +1,4 @@
-import{D as e,E as t,F as n,L as r,N as i,a,c as o,g as s,l as c,m as l,n as u,o as d,p as f,rt as p,tt as m,x as h}from"./runtime-core.esm-bundler.QXARJSnr.js";import{i as g}from"./runtime-dom.esm-bundler.CJEas4C-.js";import{t as _}from"./_plugin-vue_export-helper.BDNMzG2s.js";import{t as v}from"./clipboard.B4HicLjz.js";var ee=`8 ноября 2026`,y=[{id:`select`,group:`basics`,title:`SELECT`,summary:`Выбирает столбцы и вычисляемые выражения из таблицы.`,syntax:`SELECT столбец, выражение AS псевдоним
+import{D as e,E as t,F as n,L as r,N as i,a,c as o,g as s,l as c,m as l,n as u,o as d,p as f,rt as p,tt as m,x as h}from"./runtime-core.esm-bundler.QXARJSnr.js";import{i as g}from"./runtime-dom.esm-bundler.CJEas4C-.js";import{t as _}from"./_plugin-vue_export-helper.BDNMzG2s.js";import{t as v}from"./clipboard._lASIDAv.js";var ee=`8 ноября 2026`,y=[{id:`select`,group:`basics`,title:`SELECT`,summary:`Выбирает столбцы и вычисляемые выражения из таблицы.`,syntax:`SELECT столбец, выражение AS псевдоним
 FROM таблица
 WHERE условие
 ORDER BY столбец
