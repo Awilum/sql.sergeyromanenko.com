@@ -1,0 +1,76 @@
+import{C as e,D as t,F as n,N as r,_ as i,l as a,rt as o,w as s,z as c}from"./runtime-core.esm-bundler.Dcxww3Pe.js";import{t as l}from"./_plugin-vue_export-helper.BDNMzG2s.js";import{t as u}from"./createLucideIcon.LxVZB8R_.js";import{a as d,c as f,d as p,f as m,g as h,h as g,i as _,l as v,m as y,n as b,o as x,p as S,r as C,s as w,t as T,u as E}from"./editorTheme.BK5Fi_AM.js";var D=u({name:`rotate-ccw`,size:24,node:[[`path`,{d:`M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8`,key:`1357e3`}],[`path`,{d:`M3 3v5h5`,key:`1xhq8a`}]]}),O=`PRAGMA foreign_keys = ON;
+
+CREATE TABLE IF NOT EXISTS players (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nickname VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    city VARCHAR(50) NOT NULL,
+    country VARCHAR(50) NOT NULL DEFAULT 'Россия',
+    level INT NOT NULL,
+    rating INT NOT NULL,
+    rank_title VARCHAR(50),
+    guild VARCHAR(50),
+    wins INT NOT NULL DEFAULT 0,
+    losses INT NOT NULL DEFAULT 0,
+    win_rate DECIMAL(5,2),
+    last_login DATE,
+    registration_date DATE NOT NULL
+);
+
+INSERT INTO players (nickname, email, city, level, rating, rank_title, guild, wins, losses, win_rate, last_login, registration_date)
+VALUES
+('AlphaKnight', 'alpha_knight@yandex.ru', 'Москва', 45, 2100, 'Gold', 'Грифоны Эрафии', 120, 80, 60.00, '2026-06-20', '2025-01-15'),
+('CatQueen', 'cat_queen@mail.ru', 'Санкт-Петербург', 12, 850, 'Bronze', NULL, 15, 30, 33.33, '2026-06-19', '2026-05-10'),
+('ThunderStrike', 'thunder_strike@yandex.ru', 'Новосибирск', 89, 3450, 'Diamond', 'Черные Драконы Нигона', 540, 410, 56.84, '2026-06-21', '2024-08-22'),
+('AliceFox', 'alice_fox99@mail.ru', 'Екатеринбург', 31, 1500, 'Silver', 'Золотые Единороги Авли', 75, 70, 51.72, '2026-06-15', '2025-11-03'),
+('MaxDrive', 'max_drive@yandex.ru', 'Омск', 55, 2400, 'Gold', 'Грифоны Эрафии', 210, 180, 53.85, '2026-06-21', '2025-03-14'),
+('NightWolf', 'night_wolf@mail.ru', 'Казань', 73, 2900, 'Platinum', 'Церберы Инферно', 380, 310, 55.07, '2026-06-18', '2024-12-01'),
+('StarDust', 'star_dust@yandex.ru', 'Нижний Новгород', 22, 1150, 'Silver', NULL, 42, 45, 48.28, '2026-06-11', '2026-02-18'),
+('SteelKnight', 'steel_knight@mail.ru', 'Челябинск', 61, 2650, 'Platinum', 'Черные Драконы Нигона', 290, 240, 54.72, '2026-06-20', '2025-05-20'),
+('CyberKing', 'cyber_king@yandex.ru', 'Самара', 40, 1950, 'Gold', 'Гидры Таталии', 165, 140, 54.10, '2026-06-17', '2025-07-07'),
+('PhoenixRF', 'phoenix_rf@mail.ru', 'Ростов-на-Дону', 50, 2200, 'Gold', 'Золотые Единороги Авли', 200, 190, 51.28, '2026-06-19', '2025-04-12'),
+('GnomeMiner', 'gnome_miner@yandex.ru', 'Уфа', 34, 1600, 'Silver', 'Церберы Инферно', 95, 88, 51.91, '2026-06-14', '2025-09-30'),
+('SiberianLion', 'siberian_lion@mail.ru', 'Красноярск', 82, 3200, 'Diamond', 'Черные Драконы Нигона', 490, 420, 53.85, '2026-06-21', '2024-09-15'),
+('WindChange', 'wind_change@yandex.ru', 'Пермь', 18, 980, 'Bronze', NULL, 25, 35, 41.67, '2026-06-16', '2026-04-01'),
+('SilentStream', 'silent_stream@mail.ru', 'Воронеж', 28, 1350, 'Silver', 'Золотые Единороги Авли', 58, 62, 48.33, '2026-06-12', '2025-12-10'),
+('BalticStorm', 'baltic_storm@yandex.ru', 'Калининград', 67, 2800, 'Platinum', 'Грифоны Эрафии', 320, 280, 53.33, '2026-06-20', '2025-02-28'),
+('PrinceX', 'prince_x@mail.ru', 'Владимир', 5, 500, 'Bronze', NULL, 2, 8, 20.00, '2026-06-05', '2026-06-01'),
+('ForestHunter', 'forest_hunter@yandex.ru', 'Хабаровск', 70, 2950, 'Platinum', 'Церберы Инферно', 350, 300, 53.85, '2026-06-21', '2024-11-11'),
+('AmurTiger', 'amur_tiger@mail.ru', 'Владивосток', 58, 2500, 'Gold', 'Громовые Птицы Крюлода', 240, 210, 53.33, '2026-06-19', '2025-06-14'),
+('BlackSea', 'black_sea@yandex.ru', 'Сочи', 39, 1800, 'Gold', NULL, 130, 120, 52.00, '2026-06-18', '2025-08-19'),
+('RiverMaid', 'river_maid@mail.ru', 'Волгоград', 25, 1200, 'Silver', 'Золотые Единороги Авли', 50, 48, 51.02, '2026-06-14', '2026-01-25'),
+('SeaWolf', 'sea_wolf@yandex.ru', 'Мурманск', 48, 2050, 'Gold', 'Грифоны Эрафии', 170, 155, 52.31, '2026-06-20', '2025-05-05'),
+('SteppeEagle', 'steppe_eagle@mail.ru', 'Оренбург', 33, 1450, 'Silver', 'Гидры Таталии', 80, 85, 48.48, '2026-06-13', '2025-10-12'),
+('NorthLight', 'north_light@yandex.ru', 'Тула', 15, 900, 'Bronze', NULL, 18, 22, 45.00, '2026-06-10', '2026-04-20'),
+('SilverArrow', 'silver_arrow@mail.ru', 'Ижевск', 64, 2700, 'Platinum', 'Черные Драконы Нигона', 310, 260, 54.39, '2026-06-19', '2025-03-03'),
+('Fisherman', 'fisherman@yandex.ru', 'Астрахань', 29, 1300, 'Silver', NULL, 64, 66, 49.23, '2026-06-16', '2025-11-15'),
+('StormBringer', 'storm_bringer@mail.ru', 'Саратов', 52, 2300, 'Gold', 'Церберы Инферно', 205, 185, 52.56, '2026-06-17', '2025-04-29'),
+('KazanCat', 'kazan_cat@yandex.ru', 'Казань', 8, 600, 'Bronze', NULL, 4, 12, 25.00, '2026-06-03', '2026-05-28'),
+('MountainQueen', 'mountain_queen@mail.ru', 'Екатеринбург', 77, 3100, 'Diamond', 'Фениксы Конфлюкса', 450, 390, 53.57, '2026-06-21', '2024-10-05'),
+('AdmiralB', 'admiral_b@yandex.ru', 'Санкт-Петербург', 91, 3600, 'Master', 'Черные Драконы Нигона', 620, 480, 56.36, '2026-06-21', '2024-07-01'),
+('MoscowGuy', 'moscow_guy@mail.ru', 'Москва', 42, 1980, 'Gold', 'Грифоны Эрафии', 150, 135, 52.63, '2026-06-20', '2025-07-20'),
+('Meteorite', 'meteorite@yandex.ru', 'Челябинск', 36, 1700, 'Silver', 'Церберы Инферно', 110, 105, 51.16, '2026-06-15', '2025-08-30'),
+('DiamondUser', 'diamond_user@mail.ru', 'Якутск', 60, 2600, 'Platinum', 'Громовые Птицы Крюлода', 275, 245, 52.88, '2026-06-19', '2025-05-12'),
+('RyazanRider', 'ryazan_rider@yandex.ru', 'Рязань', 24, 1100, 'Silver', NULL, 48, 52, 48.00, '2026-06-12', '2026-01-10'),
+('TverWanderer', 'tver_wanderer@mail.ru', 'Тверь', 19, 950, 'Bronze', 'Древние Бегемоты', 32, 40, 44.44, '2026-06-11', '2026-03-15'),
+('CossackRider', 'cossack_rider@yandex.ru', 'Краснодар', 57, 2450, 'Gold', 'Черные Драконы Нигона', 230, 205, 52.87, '2026-06-20', '2025-04-05'),
+('YarBear', 'yar_bear@mail.ru', 'Ярославль', 44, 2000, 'Gold', 'Грифоны Эрафии', 160, 145, 52.46, '2026-06-18', '2025-06-25'),
+('BaikalSeal', 'baikal_seal@yandex.ru', 'Иркутск', 68, 2850, 'Platinum', 'Мантикоры Подземелья', 340, 290, 53.97, '2026-06-21', '2024-12-15'),
+('LipetskBoy', 'lipetsk_boy@mail.ru', 'Липецк', 14, 880, 'Bronze', NULL, 14, 26, 35.00, '2026-06-08', '2026-05-01'),
+('PskovLynx', 'pskov_lynx@yandex.ru', 'Псков', 32, 1480, 'Silver', 'Фениксы Конфлюкса', 77, 81, 48.73, '2026-06-14', '2025-10-22'),
+('FalconScout', 'falcon_scout@mail.ru', 'Ставрополь', 49, 2150, 'Gold', 'Гидры Таталии', 185, 165, 52.86, '2026-06-17', '2025-05-18'),
+('AltaiShaman', 'altai_shaman@yandex.ru', 'Барнаул', 72, 2980, 'Platinum', 'Черные Драконы Нигона', 390, 330, 54.17, '2026-06-20', '2024-11-20'),
+('TulaBaker', 'tula_baker@mail.ru', 'Тула', 21, 1050, 'Silver', NULL, 38, 42, 47.50, '2026-06-13', '2026-02-10'),
+('KurskBird', 'kursk_bird@yandex.ru', 'Курск', 38, 1750, 'Silver', 'Грифоны Эрафии', 125, 118, 51.44, '2026-06-16', '2025-08-05'),
+('KamchatkaCrab', 'kamchatka_crab@mail.ru', 'Петропавловск-Камчатский', 63, 2750, 'Platinum', 'Мантикоры Подземелья', 305, 265, 53.51, '2026-06-21', '2025-02-10'),
+('VologdaUser', 'vologda_user@yandex.ru', 'Вологда', 27, 1250, 'Silver', 'Фениксы Конфлюкса', 60, 58, 50.85, '2026-06-15', '2025-12-05'),
+('ShieldWall', 'shield_wall@mail.ru', 'Смоленск', 41, 1900, 'Gold', NULL, 142, 138, 50.71, '2026-06-18', '2025-07-15'),
+('RangerX', 'ranger_x@yandex.ru', 'Брянск', 53, 2350, 'Gold', 'Черные Драконы Нигона', 215, 195, 52.44, '2026-06-19', '2025-04-25'),
+('MagnetPoint', 'magnet_point@mail.ru', 'Магнитогорск', 46, 2080, 'Gold', 'Церберы Инферно', 172, 160, 51.81, '2026-06-20', '2025-06-01'),
+('CheeseLover', 'cheese_lover@yandex.ru', 'Кострома', 17, 920, 'Bronze', NULL, 22, 30, 42.31, '2026-06-09', '2026-03-20'),
+('Lia', 'lia@yandex.ru', 'Северодвинск', 52, 2380, 'Gold', 'Фениксы Конфлюкса', 195, 150, 56.52, '2026-06-21', '2025-03-11');
+`,k=`-- Игроки из Москвы с уровнем выше 30, отсортированные по рейтингу.
+SELECT nickname, city, level, rating, rank_title, guild
+FROM players
+WHERE city = 'Москва' AND level > 30
+ORDER BY rating DESC;`,A=`Игроки`,j=i({__name:`CodeEditor`,props:{modelValue:{},heightClass:{default:`h-[22rem] xl:h-[30rem]`}},emits:[`update:modelValue`,`run`],setup(t,{expose:i,emit:a}){let o=t,l=a,u=r(`host`),D=c(),{theme:O,highlightStyle:k}=T(),A=C({dialect:b,upperCaseKeywords:!1});s(()=>{u.value&&(D.value=new m({state:h.create({doc:o.modelValue,extensions:[A,y(),h.tabSize.of(2),E.of(`  `),v(),d(),f(),p(k),O,S.of([..._,...x,w,{key:`Mod-Enter`,preventDefault:!0,run:()=>(l(`run`),!0)}]),m.lineWrapping,m.editable.of(!0),g(`Напишите SQL и нажмите Выполнить SQL`),m.contentAttributes.of({"aria-label":`Источник SQL`,role:`textbox`,"aria-multiline":`true`}),m.updateListener.of(e=>{e.docChanged&&l(`update:modelValue`,e.state.doc.toString())})]}),parent:u.value}))});function j(e){let t=D.value;t&&t.dispatch({changes:{from:0,to:t.state.doc.length,insert:e}})}function M(e){let t=D.value;if(!t)return;let n=t.state.selection.main.from;t.dispatch({changes:{from:n,insert:e},selection:{anchor:n+e.length}}),t.focus()}n(()=>o.modelValue,e=>{e!==D.value?.state.doc.toString()&&j(e)}),e(()=>{D.value?.destroy(),D.value=void 0}),i({setDoc:j,insert:M,focus:()=>D.value?.focus()});let N={props:o,emit:l,host:u,view:D,theme:O,highlightStyle:k,sqlLanguage:A,setDoc:j,insert:M};return Object.defineProperty(N,"__isScriptSetup",{enumerable:!1,value:!0}),N}});function M(e,n,r,i,s,c){return t(),a(`div`,{ref:`host`,class:o([`sql-editor-host`,r.heightClass])},null,2)}var N=l(j,[[`render`,M]]);export{D as a,k as i,A as n,O as r,N as t};

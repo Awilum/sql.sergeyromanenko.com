@@ -40,6 +40,8 @@ robots: "index, follow, max-image-preview:large"
   - [Промокоды](https://sql.sergeyromanenko.com/promo-codes/) — Действующие промокоды на SQL-курсы
   - [Игры](https://sql.sergeyromanenko.com/games/) — Интерактивные игры для закрепления SQL-навыков
     - [SQL Memory Match](https://sql.sergeyromanenko.com/games/memory-match/)
+    - [SQL Query Builder](https://sql.sergeyromanenko.com/games/query-builder/)
+    - [SQL Bug Hunter](https://sql.sergeyromanenko.com/games/sql-bug-hunter/)
   - [Справочник SQL](https://sql.sergeyromanenko.com/reference/) — Синтаксис SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции и другие темы
     - [SELECT](https://sql.sergeyromanenko.com/reference/#select) — Выбирает столбцы и вычисляемые выражения из таблицы.
     - [WHERE](https://sql.sergeyromanenko.com/reference/#where) — Оставляет строки, для которых условие истинно.
