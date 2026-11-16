@@ -17,7 +17,7 @@ robots: "index, follow, max-image-preview:large"
 
 Снимок статистики
 
-Данные получены из публичного API Stepik Stats 13 ноября 2026. Доступ — бесплатный или платный; условия указаны на Stepik.
+Данные получены из публичного API Stepik Stats 17 ноября 2026. Доступ — бесплатный или платный; условия указаны на Stepik.
 
 Как считается статистика →
 
@@ -33,7 +33,7 @@ robots: "index, follow, max-image-preview:large"
 
 7 курсов
 
-85 участников
+86 участников
 
 Состав программы
 
@@ -55,7 +55,7 @@ robots: "index, follow, max-image-preview:large"
 
 21 урок
 
-3 184 учеников
+3 252 учеников
 
 ★ 4,92
 
@@ -75,7 +75,7 @@ robots: "index, follow, max-image-preview:large"
 
 85 уроков
 
-912 учеников
+915 учеников
 
 ★ 4,76
 
@@ -97,7 +97,7 @@ robots: "index, follow, max-image-preview:large"
 
 26 уроков
 
-2 311 учеников
+2 313 учеников
 
 ★ 4,87
 
@@ -141,7 +141,7 @@ robots: "index, follow, max-image-preview:large"
 
 17 уроков
 
-406 учеников
+407 учеников
 
 ★ 4,94
 
@@ -163,7 +163,7 @@ robots: "index, follow, max-image-preview:large"
 
 34 урока
 
-530 учеников
+531 учеников
 
 ★ 4,91
 
@@ -185,9 +185,9 @@ robots: "index, follow, max-image-preview:large"
 
 17 уроков
 
-991 учеников
+1 009 учеников
 
-★ 4,67
+★ 4,65
 
 Бесплатно
 

@@ -1,10 +1,10 @@
 {
-  "totalDownloads": 1315,
+  "totalDownloads": 1498,
   "releases": [
     {
       "tag_name": "v1.0.4",
       "published_at": "2026-07-17T08:23:18Z",
-      "downloads": 922,
+      "downloads": 1105,
       "assets": [
         "sql-introduction.epub",
         "sql-introduction.pdf"
@@ -47,5 +47,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-30T17:20:46.408Z"
+  "updatedAt": "2026-11-16T17:53:16.932Z"
 }
