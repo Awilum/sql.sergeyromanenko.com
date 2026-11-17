@@ -55,7 +55,7 @@ robots: "index, follow, max-image-preview:large"
 
 21 урок
 
-3 252 учеников
+3 280 учеников
 
 ★ 4,92
 
@@ -185,7 +185,7 @@ robots: "index, follow, max-image-preview:large"
 
 17 уроков
 
-1 009 учеников
+1 015 учеников
 
 ★ 4,65
 

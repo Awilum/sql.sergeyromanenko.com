@@ -1,0 +1,1 @@
+function e(e,t){let n=Math.abs(e),r=n%10,i=n%100;return r===1&&i!==11?t[0]:r>=2&&r<=4&&(i<12||i>14)?t[1]:t[2]}function t(t,n){return`${t} ${e(t,n)}`}export{e as n,t};

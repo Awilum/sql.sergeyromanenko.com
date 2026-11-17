@@ -21,8 +21,6 @@ robots: "index, follow, max-image-preview:large"
 
 Профиль автора на Stepik →
 
-01
-
 Бесплатно
 
 GitHub
@@ -36,8 +34,6 @@ GitHub
 GitHub →
 
 Входит в бесплатный курс [«SQL Введение»](https://stepik.org/a/290855/) на Stepik.
-
-02
 
 В курсе
 

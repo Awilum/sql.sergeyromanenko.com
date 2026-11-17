@@ -53,7 +53,7 @@ robots: "index, follow, max-image-preview:large"
   ### [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)
   Начальный
   21 урок
-  3 252 учеников
+  3 280 учеников
   ★ 4,92
   Бесплатно
   Подробнее
@@ -154,7 +154,7 @@ robots: "index, follow, max-image-preview:large"
   ### [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)
   Средний
   17 уроков
-  1 009 учеников
+  1 015 учеников
   ★ 4,65
   Бесплатно
   Подробнее
