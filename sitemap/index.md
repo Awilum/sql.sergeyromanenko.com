@@ -44,6 +44,7 @@ robots: "index, follow, max-image-preview:large"
     - [SQL Bug Hunter](https://sql.sergeyromanenko.com/games/sql-bug-hunter/)
   - [Инструменты](https://sql.sergeyromanenko.com/tools/) — Бесплатные браузерные инструменты для работы с SQL
     - [Разбор SQL-запроса](https://sql.sergeyromanenko.com/tools/sql-explainer/) — Пошаговый разбор структуры SQL-запроса на русском
+    - [Форматирование SQL-кода](https://sql.sergeyromanenko.com/tools/sql-formatter/) — Оформление запросов по SQL Style Guide: выравнивание ключевых слов, JOIN, подзапросы и CREATE TABLE
   - [Справочник SQL](https://sql.sergeyromanenko.com/reference/) — Синтаксис SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции и другие темы
     - [SELECT](https://sql.sergeyromanenko.com/reference/#select) — Выбирает столбцы и вычисляемые выражения из таблицы.
     - [WHERE](https://sql.sergeyromanenko.com/reference/#where) — Оставляет строки, для которых условие истинно.

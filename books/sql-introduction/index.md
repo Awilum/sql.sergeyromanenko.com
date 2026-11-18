@@ -81,9 +81,9 @@ EPUB
 
 Загрузки книги
 
-1 506 PDF + EPUB
+1 510 PDF + EPUB
 
-Источник: GitHub API · обновлено 17 ноября 2026 г.
+Источник: GitHub API · обновлено 18 ноября 2026 г.
 
 [PDF + EPUB](https://github.com/Awilum/sql-introduction/releases)
 
