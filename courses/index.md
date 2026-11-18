@@ -7,19 +7,16 @@ markdown_url: "https://sql.sergeyromanenko.com/courses/index.md"
 section: "Courses"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Курсы
 
 # Курсы по SQL: от первого запроса до аналитики
 
 Семь отдельных курсов и одна комплексная программа.
 
-Снимок статистики
-
 Данные получены из публичного API Stepik Stats 18 ноября 2026. Доступ — бесплатный или платный; условия указаны на Stepik.
 
-Как считается статистика →
+[Как считается статистика →](https://sql.sergeyromanenko.com/statistics/)
 
 Программа целиком
 
@@ -29,21 +26,15 @@ robots: "index, follow, max-image-preview:large"
 
 Платно
 
-Есть промокод
-
 7 курсов
 
-86 участников
+[Состав программы](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/)
 
-Состав программы
-
-Открыть на Stepik
+[Открыть на Stepik](https://stepik.org/a/279994/)
 
 ## Отдельные курсы
 
 7 курсов · сгруппированы по этапам
-
-01
 
 ### Старт
 
@@ -53,17 +44,9 @@ robots: "index, follow, max-image-preview:large"
 
 Начальный
 
-21 урок
-
-3 299 учеников
-
-★ 4,92
-
 Бесплатно
 
-Подробнее
-
-02
+[Подробнее](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 ### Основа
 
@@ -73,19 +56,9 @@ robots: "index, follow, max-image-preview:large"
 
 Начальный
 
-85 уроков
-
-915 учеников
-
-★ 4,76
-
 Платно
 
-Есть промокод
-
-Подробнее
-
-03
+[Подробнее](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
 
 ### Практика
 
@@ -95,19 +68,9 @@ robots: "index, follow, max-image-preview:large"
 
 Начальный
 
-26 уроков
-
-2 313 учеников
-
-★ 4,87
-
 Платно
 
-Есть промокод
-
-Подробнее
-
-04
+[Подробнее](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)
 
 ### Логика
 
@@ -117,19 +80,9 @@ robots: "index, follow, max-image-preview:large"
 
 Средний
 
-28 уроков
-
-609 учеников
-
-★ 5,00
-
 Платно
 
-Есть промокод
-
-Подробнее
-
-05
+[Подробнее](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)
 
 ### Структура
 
@@ -139,19 +92,9 @@ robots: "index, follow, max-image-preview:large"
 
 Средний
 
-17 уроков
-
-407 учеников
-
-★ 4,94
-
 Платно
 
-Есть промокод
-
-Подробнее
-
-06
+[Подробнее](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)
 
 ### Аналитика
 
@@ -161,19 +104,9 @@ robots: "index, follow, max-image-preview:large"
 
 Продвинутый
 
-34 урока
-
-531 учеников
-
-★ 4,91
-
 Платно
 
-Есть промокод
-
-Подробнее
-
-07
+[Подробнее](https://sql.sergeyromanenko.com/courses/sql-window-functions/)
 
 ### Проверка
 
@@ -183,14 +116,8 @@ robots: "index, follow, max-image-preview:large"
 
 Средний
 
-17 уроков
-
-1 019 учеников
-
-★ 4,65
-
 Бесплатно
 
-Подробнее
+[Подробнее](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)
 
 Сайт не продаёт курсы и не получает оплату. Переход на Stepik открывает страницу платформы, где действуют её правила и условия возврата.

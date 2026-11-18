@@ -4,36 +4,34 @@ seo_title: "SQL Введение — бесплатная книга — SQL с 
 description: "Полная бесплатная книга «SQL Введение» Сергея Романенко. Все главы онлайн: структура данных, SELECT, фильтрация, JOIN, агрегация и практика."
 canonical_url: "https://sql.sergeyromanenko.com/books/sql-introduction/"
 markdown_url: "https://sql.sergeyromanenko.com/books/sql-introduction/index.md"
-section: "Site"
+section: "Books"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. [Книги](https://sql.sergeyromanenko.com/books/)
-2. SQL Введение
 
 # SQL Введение
 
 Бесплатный учебник для первого знакомства с SQL и реляционными базами данных. Всё содержание доступно прямо здесь — читайте главы в удобном порядке.
 
-Начать бесплатный курс на Stepik →
+[Начать бесплатный курс на Stepik →](https://stepik.org/a/290855/)
 
-Книга на GitHub →
+[Книга на GitHub →](https://github.com/Awilum/sql-introduction)
 
 ## Содержание книги
 
-1. [01Предисловие](https://sql.sergeyromanenko.com/books/sql-introduction/00-preface/)
-2. [02Учебная база данных «Игроки»](https://sql.sergeyromanenko.com/books/sql-introduction/01-database-overview/)
-3. [03Типы данных](https://sql.sergeyromanenko.com/books/sql-introduction/02-data-types/)
-4. [04Введение в SQL](https://sql.sergeyromanenko.com/books/sql-introduction/03-introduction/)
-5. [05Выборка данных (Оператор SELECT)](https://sql.sergeyromanenko.com/books/sql-introduction/04-querying-data/)
-6. [06Сортировка данных (Оператор ORDER BY)](https://sql.sergeyromanenko.com/books/sql-introduction/05-sorting-data/)
-7. [07Фильтрация данных (Оператор WHERE)](https://sql.sergeyromanenko.com/books/sql-introduction/06-filtering-data/)
-8. [08Псевдонимы (Ключевое слово AS)](https://sql.sergeyromanenko.com/books/sql-introduction/07-aliases/)
-9. [09Группировка данных (Оператор GROUP BY)](https://sql.sergeyromanenko.com/books/sql-introduction/08-grouping-data/)
-10. [10Агрегатные функции](https://sql.sergeyromanenko.com/books/sql-introduction/09-aggregate-functions/)
-11. [11Что дальше?](https://sql.sergeyromanenko.com/books/sql-introduction/10-summary/)
-12. [12Об авторе](https://sql.sergeyromanenko.com/books/sql-introduction/11-about/)
+1. [01 Предисловие](https://sql.sergeyromanenko.com/books/sql-introduction/00-preface/)
+2. [02 Учебная база данных «Игроки»](https://sql.sergeyromanenko.com/books/sql-introduction/01-database-overview/)
+3. [03 Типы данных](https://sql.sergeyromanenko.com/books/sql-introduction/02-data-types/)
+4. [04 Введение в SQL](https://sql.sergeyromanenko.com/books/sql-introduction/03-introduction/)
+5. [05 Выборка данных (Оператор SELECT)](https://sql.sergeyromanenko.com/books/sql-introduction/04-querying-data/)
+6. [06 Сортировка данных (Оператор ORDER BY)](https://sql.sergeyromanenko.com/books/sql-introduction/05-sorting-data/)
+7. [07 Фильтрация данных (Оператор WHERE)](https://sql.sergeyromanenko.com/books/sql-introduction/06-filtering-data/)
+8. [08 Псевдонимы (Ключевое слово AS)](https://sql.sergeyromanenko.com/books/sql-introduction/07-aliases/)
+9. [09 Группировка данных (Оператор GROUP BY)](https://sql.sergeyromanenko.com/books/sql-introduction/08-grouping-data/)
+10. [10 Агрегатные функции](https://sql.sergeyromanenko.com/books/sql-introduction/09-aggregate-functions/)
+11. [11 Что дальше?](https://sql.sergeyromanenko.com/books/sql-introduction/10-summary/)
+12. [12 Об авторе](https://sql.sergeyromanenko.com/books/sql-introduction/11-about/)
 
 ## Почему стоит пройти курс на Stepik
 
@@ -53,13 +51,13 @@ robots: "index, follow, max-image-preview:large"
 
 Введение полностью бесплатно — для знакомства с SQL и дальнейшего перехода к полной программе.
 
-Записаться на бесплатный курс →
+[Записаться на бесплатный курс →](https://stepik.org/a/290855/)
 
 ## Продолжение обучения
 
 SQL Введение — это только начало. Полная программа **SQL с нуля до результата** включает дополнительные курсы по оконным функциям, CTE, условной логике, проверке знаний и практическому тренажёру.
 
-Перейти к полной программе →
+[Перейти к полной программе →](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/)
 
 О книге
 
@@ -67,13 +65,13 @@ SQL Введение — это только начало. Полная прог
 
 Материалы распространяются бесплатно. Вы можете скачать книгу с GitHub или читать прямо на сайте.
 
-Открыть репозиторий на GitHub →
+[Открыть репозиторий на GitHub →](https://github.com/Awilum/sql-introduction)
 
 Скачать книгу
 
-PDF
+[PDF](https://github.com/Awilum/sql-introduction/releases/latest)
 
-EPUB
+[EPUB](https://github.com/Awilum/sql-introduction/releases/latest)
 
 ## Популярность книги
 

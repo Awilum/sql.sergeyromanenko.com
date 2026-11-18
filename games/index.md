@@ -7,9 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/games/index.md"
 section: "Games"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Игры
 
 # SQL Игры
 
@@ -31,7 +30,7 @@ robots: "index, follow, max-image-preview:large"
 
 Игра по курсу
 
-«SQL Введение»
+[«SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 Найдите пары связанных SQL-понятий, команд и объяснений. Закрепляйте материал курса «SQL Введение» в формате классической игры на поиск совпадений.
 
@@ -51,9 +50,9 @@ robots: "index, follow, max-image-preview:large"
 
 Группировка
 
-Играть →
+[Играть →](https://sql.sergeyromanenko.com/games/memory-match/)
 
-О курсе «SQL Введение»
+[О курсе «SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 20–30 мин
 
@@ -63,7 +62,7 @@ robots: "index, follow, max-image-preview:large"
 
 Игра по курсу
 
-«SQL Введение»
+[«SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 Собирайте SQL-запросы из перетасованных блоков: SELECT, WHERE, GROUP BY, HAVING, ORDER BY и LIMIT. Структурная проверка шагов запроса по всем главам курса «SQL Введение».
 
@@ -89,9 +88,9 @@ BETWEEN, LIKE, IN, NULL
 
 Итоговый экзамен
 
-Играть →
+[Играть →](https://sql.sergeyromanenko.com/games/query-builder/)
 
-О курсе «SQL Введение»
+[О курсе «SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 25–30 мин
 
@@ -101,7 +100,7 @@ BETWEEN, LIKE, IN, NULL
 
 Игра по курсу
 
-«SQL Введение»
+[«SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 Расследуйте сломанные SQL-запросы: сравните ожидаемый и фактический результат, найдите ошибку и исправьте её. 18 дел по всем темам курса «SQL Введение».
 
@@ -123,9 +122,9 @@ BETWEEN, LIKE, IN, NULL
 
 LIMIT и OFFSET
 
-Играть →
+[Играть →](https://sql.sergeyromanenko.com/games/sql-bug-hunter/)
 
-О курсе «SQL Введение»
+[О курсе «SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 ## Игры как часть образовательной экосистемы
 

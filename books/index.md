@@ -4,12 +4,11 @@ seo_title: "Книги по SQL: учебники и справочники — 
 description: "Две SQL-книги Сергея Романенко: бесплатный вводный учебник с полной теорией онлайн и книга из курса по общим табличным выражениям. Скачивайте, читайте, учитесь."
 canonical_url: "https://sql.sergeyromanenko.com/books/"
 markdown_url: "https://sql.sergeyromanenko.com/books/index.md"
-section: "Site"
+section: "Books"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Книги
 
 # SQL-книги Сергея Романенко
 
@@ -19,7 +18,7 @@ robots: "index, follow, max-image-preview:large"
 
 Бесплатный учебник можно читать прямо здесь или скачать с GitHub. Книга из курса CTE доступна вместе с соответствующим курсом на Stepik.
 
-Профиль автора на Stepik →
+[Профиль автора на Stepik →](https://stepik.org/users/awilum)
 
 Бесплатно
 
@@ -29,9 +28,9 @@ GitHub
 
 Полная бесплатная книга для первого знакомства с SQL: таблицы, SELECT, фильтрация, JOIN, агрегация, группировка. Все главы доступны для чтения на сайте; также можно скачать в PDF или EPUB с GitHub.
 
-Читать онлайн →
+[Читать онлайн →](https://sql.sergeyromanenko.com/books/sql-introduction/)
 
-GitHub →
+[GitHub →](https://github.com/Awilum/sql-introduction)
 
 Входит в бесплатный курс [«SQL Введение»](https://stepik.org/a/290855/) на Stepik.
 
@@ -43,7 +42,7 @@ GitHub →
 
 Доступна учащимся курса «SQL Общие табличные выражения» на Stepik.
 
-Перейти к курсу →
+[Перейти к курсу →](https://stepik.org/a/294493/)
 
 ## О книгах
 

@@ -7,10 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/ind
 section: "Courses"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. [Курсы](https://sql.sergeyromanenko.com/courses/)
-2. SQL с нуля до результата
 
 Программа
 
@@ -20,9 +18,9 @@ robots: "index, follow, max-image-preview:large"
 
 Семь курсов в одной программе: от первого SELECT до условной логики, CTE, оконных функций и практического тренажёра. Одна запись открывает весь путь.
 
-Открыть курс на Stepik
+[Открыть курс на Stepik](https://stepik.org/a/279994/)
 
-Посмотреть учебный путь
+[Посмотреть учебный путь](https://sql.sergeyromanenko.com/roadmap/)
 
 Переход на Stepik · условия доступа указаны там
 
@@ -47,19 +45,19 @@ robots: "index, follow, max-image-preview:large"
 
 Семь курсов можно проходить последовательно или выбрать отдельные темы. Каждый курс также доступен самостоятельно.
 
-1. SQL Введение
+1. [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)
   SQL Введение · Начальный
-2. SQL для начинающих
+2. [SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
   SQL для начинающих · Начальный
-3. Практический Тренажер по SQL
+3. [Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)
   Практический Тренажер по SQL · Начальный
-4. SQL Условная логика
+4. [SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)
   SQL Условная логика · Средний
-5. SQL Общие табличные выражения
+5. [SQL Общие табличные выражения](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)
   SQL Общие табличные выражения · Средний
-6. SQL Оконные функции
+6. [SQL Оконные функции](https://sql.sergeyromanenko.com/courses/sql-window-functions/)
   SQL Оконные функции · Продвинутый
-7. Проверка знаний и подготовка к собеседованию по SQL
+7. [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)
   Проверка знаний и подготовка к собеседованию по SQL · Средний
 
 ## Формат обучения
@@ -78,49 +76,37 @@ robots: "index, follow, max-image-preview:large"
 
 WELCOME2026
 
-Скопировать промокод
-
 Доступен для этого курса на платформе Stepik.
 
 - **Срок действия:** До 31 декабря 2026 года включительно
 
-Перейти на Stepik
+[Перейти на Stepik](https://stepik.org/a/279994/)
 
 ## О диалекте SQL
 
 Курс может использовать MySQL или другую СУБД. Песочница сайта работает на SQLite: она подходит для отработки логики, но не заменяет среду курса. Перед переносом запроса проверьте функции и типы.
 
-Открыть песочницу →
+[Открыть песочницу →](https://sql.sergeyromanenko.com/sandbox/)
 
-Справочник по синтаксису →
+[Справочник по синтаксису →](https://sql.sergeyromanenko.com/reference/#select)
 
 Факты о курсе
 
 - **Доступ:** Платно
 - **Уровень:** От начального до продвинутого
-- **Уроки:** 228
-- **Учащиеся:** 86
-- **Отзывы:** 0
-- **Сертификаты:** 0
 
-Доступ — бесплатный или платный. Условия указаны на Stepik. Актуальность: 16 ноября 2026.
+Доступ — бесплатный или платный. Условия указаны на Stepik.
 
-Перейти к курсу
+[Перейти к курсу](https://stepik.org/a/279994/)
 
 Сайт не продаёт курсы и не получает оплату
 
 ## Другие темы
 
-Весь каталог →
+[Весь каталог →](https://sql.sergeyromanenko.com/courses/)
 
-Этап 1 · Начальный
+[Этап 1 · Начальный SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
-SQL Введение
+[Этап 2 · Начальный SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
 
-Этап 2 · Начальный
-
-SQL для начинающих
-
-Этап 3 · Начальный
-
-Практический Тренажер по SQL
+[Этап 3 · Начальный Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)

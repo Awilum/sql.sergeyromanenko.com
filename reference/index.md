@@ -4,30 +4,27 @@ seo_title: "Справочник по SQL: синтаксис и примеры 
 description: "Шпаргалка по SQL: SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции, INSERT и DELETE. Короткие примеры для SQLite и готовые шаблоны для копирования."
 canonical_url: "https://sql.sergeyromanenko.com/reference/"
 markdown_url: "https://sql.sergeyromanenko.com/reference/index.md"
-section: "Site"
+section: "Reference"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Справочник
 
 # Справочник по SQL: синтаксис под рукой
 
 Форма записи, готовый пример и две заметки о том, где чаще всего ошибаются. Примеры выполняются в SQLite, если не указано иное, и используют демонстрационную схему customers / products / orders.
 
-Программа обучения →
+[Программа обучения →](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/)
 
-Песочница SQLite →
-
-Скачать PDF
+[Песочница SQLite →](https://sql.sergeyromanenko.com/sandbox/)
 
 Справочник не заменяет курс: здесь нет пошаговых объяснений и упражнений. Начать бесплатно можно с курса [«SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/).
 
 Как пользоваться
 
-1. 01Найдите тему в содержании.
-2. 02Скопируйте пример кнопкой в блоке.
-3. 03Подставьте таблицы из своей базы: в песочнице это «Игроки» или «Интернет-магазин».
+1. 01 Найдите тему в содержании.
+2. 02 Скопируйте пример кнопкой в блоке.
+3. 03 Подставьте таблицы из своей базы: в песочнице это «Игроки» или «Интернет-магазин».
 
 Шаблон — форма записи с русскими подсказками.
 
@@ -35,99 +32,17 @@ robots: "index, follow, max-image-preview:large"
 
 Таблицы customers, products и orders — демонстрационные; в песочнице создайте их в скрипте схемы или замените на свои.
 
-Открыть песочницу →
-
-Содержание
-
-14 тем · обновлено 8 ноября 2026
+[Открыть песочницу →](https://sql.sergeyromanenko.com/sandbox/)
 
 Основы выборки
 
-1. 01SELECT
-2. 02WHERE
-3. 03ORDER BY и LIMIT
-4. 04DISTINCT
-
-Группировка
-
-1. 05GROUP BY и HAVING
-
-Соединения
-
-1. 06JOIN
-
-Логика и значения
-
-1. 07NULL
-2. 08CASE
-3. 09IN, BETWEEN, LIKE
-
-Сложные запросы
-
-1. 10UNION и UNION ALL
-2. 11Подзапросы и CTE
-3. 12Оконные функции
-
-Изменение данных
-
-1. 13INSERT, UPDATE, DELETE
-
-Диалекты
-
-1. 14Диалекты SQL
-
-**Содержание14 тем**
-
-Основы выборки
-
-1. 01SELECT
-2. 02WHERE
-3. 03ORDER BY и LIMIT
-4. 04DISTINCT
-
-Группировка
-
-1. 05GROUP BY и HAVING
-
-Соединения
-
-1. 06JOIN
-
-Логика и значения
-
-1. 07NULL
-2. 08CASE
-3. 09IN, BETWEEN, LIKE
-
-Сложные запросы
-
-1. 10UNION и UNION ALL
-2. 11Подзапросы и CTE
-3. 12Оконные функции
-
-Изменение данных
-
-1. 13INSERT, UPDATE, DELETE
-
-Диалекты
-
-1. 14Диалекты SQL
-
-Основы выборки
-
-4
-
-## 01SELECT
-
-#select
+## 01 SELECT
 
 Выбирает столбцы и вычисляемые выражения из таблицы.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: SELECT
-
-```
+```sql
 SELECT столбец, выражение AS псевдоним
 FROM таблица
 WHERE условие
@@ -139,9 +54,7 @@ LIMIT количество;
 
 SQLite
 
-Копировать — Пример: SELECT
-
-```
+```sql
 SELECT name, city
 FROM customers
 WHERE city = 'Москва'
@@ -153,17 +66,13 @@ ORDER BY name;
 
 Курс [«SQL Введение» →](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
-## 02WHERE
-
-#where
+## 02 WHERE
 
 Оставляет строки, для которых условие истинно.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: WHERE
-
-```
+```sql
 WHERE условие
   AND (условие OR условие)
 ```
@@ -172,9 +81,7 @@ WHERE условие
 
 SQLite
 
-Копировать — Пример: WHERE
-
-```
+```sql
 SELECT name, price
 FROM products
 WHERE price BETWEEN 5000 AND 50000
@@ -186,17 +93,13 @@ WHERE price BETWEEN 5000 AND 50000
 
 Курс [«SQL Условная логика» →](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)
 
-## 03ORDER BY и LIMIT
-
-#order-limit
+## 03 ORDER BY и LIMIT
 
 Сортирует результат и ограничивает число строк.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: ORDER BY и LIMIT
-
-```
+```sql
 ORDER BY столбец ASC | DESC
 LIMIT количество OFFSET пропустить;
 ```
@@ -205,9 +108,7 @@ LIMIT количество OFFSET пропустить;
 
 SQLite
 
-Копировать — Пример: ORDER BY и LIMIT
-
-```
+```sql
 SELECT name, price
 FROM products
 ORDER BY price DESC
@@ -217,17 +118,13 @@ LIMIT 3;
 - Без ORDER BY порядок строк не гарантирован, даже если он кажется стабильным.
 - LIMIT без сортировки не отвечает на вопрос «самые дорогие»: сначала задайте порядок.
 
-## 04DISTINCT
-
-#distinct
+## 04 DISTINCT
 
 Удаляет одинаковые строки из результата.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: DISTINCT
-
-```
+```sql
 SELECT DISTINCT столбец1, столбец2
 FROM таблица;
 ```
@@ -236,9 +133,7 @@ FROM таблица;
 
 SQLite
 
-Копировать — Пример: DISTINCT
-
-```
+```sql
 SELECT DISTINCT city
 FROM customers
 ORDER BY city;
@@ -249,19 +144,13 @@ ORDER BY city;
 
 Группировка
 
-1
-
-## 05GROUP BY и HAVING
-
-#group-having
+## 05 GROUP BY и HAVING
 
 Собирает строки в группы и фильтрует уже готовые группы.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: GROUP BY и HAVING
-
-```
+```sql
 SELECT столбец, COUNT(*) AS количество
 FROM таблица
 GROUP BY столбец
@@ -272,9 +161,7 @@ HAVING COUNT(*) > 1;
 
 SQLite
 
-Копировать — Пример: GROUP BY и HAVING
-
-```
+```sql
 SELECT status, COUNT(*) AS orders_count
 FROM orders
 GROUP BY status
@@ -289,19 +176,13 @@ ORDER BY orders_count DESC;
 
 Соединения
 
-1
-
-## 06JOIN
-
-#join
+## 06 JOIN
 
 Соединяет строки двух таблиц по условию ON.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: JOIN
-
-```
+```sql
 FROM левая AS l
 JOIN правая AS r ON r.id = l.foreign_id
 ```
@@ -310,9 +191,7 @@ JOIN правая AS r ON r.id = l.foreign_id
 
 SQLite
 
-Копировать — Пример: JOIN
-
-```
+```sql
 SELECT c.name, o.ordered_at, o.status
 FROM customers AS c
 JOIN orders AS o ON o.customer_id = c.id
@@ -326,19 +205,13 @@ ORDER BY o.ordered_at DESC;
 
 Логика и значения
 
-3
-
-## 07NULL
-
-#null
+## 07 NULL
 
 Отмечает отсутствующее или неизвестное значение.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: NULL
-
-```
+```sql
 WHERE столбец IS NULL
 WHERE столбец IS NOT NULL
 ```
@@ -347,9 +220,7 @@ WHERE столбец IS NOT NULL
 
 SQLite
 
-Копировать — Пример: NULL
-
-```
+```sql
 SELECT name
 FROM customers
 WHERE city IS NULL;
@@ -358,17 +229,13 @@ WHERE city IS NULL;
 - NULL — не ноль и не пустая строка; сравнение с ним даёт UNKNOWN, а не TRUE.
 - COUNT(столбец) и AVG(столбец) пропускают NULL, а COUNT(*) считает все строки.
 
-## 08CASE
-
-#case
+## 08 CASE
 
 Возвращает значение по первому выполненному условию.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: CASE
-
-```
+```sql
 CASE
   WHEN условие THEN значение
   ELSE значение
@@ -379,9 +246,7 @@ END
 
 SQLite
 
-Копировать — Пример: CASE
-
-```
+```sql
 SELECT
   name,
   CASE
@@ -395,17 +260,13 @@ FROM products;
 - CASE работает в SELECT, ORDER BY, GROUP BY и внутри агрегатных функций.
 - Без ELSE результат будет NULL, а не исходное значение.
 
-## 09IN, BETWEEN, LIKE
-
-#in-between-like
+## 09 IN, BETWEEN, LIKE
 
 Три коротких способа записать список, диапазон или шаблон.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: IN, BETWEEN, LIKE
-
-```
+```sql
 WHERE столбец IN (значение1, значение2)
 WHERE столбец BETWEEN минимум AND максимум
 WHERE столбец LIKE 'шаблон%'
@@ -415,9 +276,7 @@ WHERE столбец LIKE 'шаблон%'
 
 SQLite
 
-Копировать — Пример: IN, BETWEEN, LIKE
-
-```
+```sql
 SELECT name, city
 FROM customers
 WHERE city IN ('Москва', 'Санкт-Петербург')
@@ -429,19 +288,13 @@ WHERE city IN ('Москва', 'Санкт-Петербург')
 
 Сложные запросы
 
-3
-
-## 10UNION и UNION ALL
-
-#union
+## 10 UNION и UNION ALL
 
 Складывает результаты запросов один под другим.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: UNION и UNION ALL
-
-```
+```sql
 SELECT столбцы FROM таблица1
 UNION | UNION ALL
 SELECT столбцы FROM таблица2
@@ -452,9 +305,7 @@ ORDER BY столбец;
 
 SQLite
 
-Копировать — Пример: UNION и UNION ALL
-
-```
+```sql
 SELECT name AS label FROM customers
 UNION
 SELECT name FROM products
@@ -464,17 +315,13 @@ ORDER BY label;
 - UNION удаляет дубликаты, UNION ALL оставляет все строки и обычно работает быстрее.
 - Число и типы столбцов должны совпадать; ORDER BY пишется один раз в конце.
 
-## 11Подзапросы и CTE
-
-#cte
+## 11 Подзапросы и CTE
 
 Разбивает запрос на именованные шаги.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: Подзапросы и CTE
-
-```
+```sql
 WITH имя AS (
   SELECT ...
 )
@@ -486,9 +333,7 @@ FROM имя;
 
 SQLite
 
-Копировать — Пример: Подзапросы и CTE
-
-```
+```sql
 WITH paid AS (
   SELECT customer_id, id
   FROM orders
@@ -505,17 +350,13 @@ GROUP BY c.id, c.name;
 
 Курс [«SQL Общие табличные выражения» →](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)
 
-## 12Оконные функции
-
-#window
+## 12 Оконные функции
 
 Считают по окну строк, не сворачивая результат.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: Оконные функции
-
-```
+```sql
 функция(...) OVER (
   PARTITION BY столбец
   ORDER BY столбец
@@ -526,9 +367,7 @@ GROUP BY c.id, c.name;
 
 SQLite
 
-Копировать — Пример: Оконные функции
-
-```
+```sql
 SELECT
   name,
   category,
@@ -547,19 +386,13 @@ FROM products;
 
 Изменение данных
 
-1
-
-## 13INSERT, UPDATE, DELETE
-
-#dml
+## 13 INSERT, UPDATE, DELETE
 
 Добавляет, изменяет и удаляет строки.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: INSERT, UPDATE, DELETE
-
-```
+```sql
 INSERT INTO таблица (столбцы) VALUES (значения);
 UPDATE таблица SET столбец = значение WHERE условие;
 DELETE FROM таблица WHERE условие;
@@ -569,9 +402,7 @@ DELETE FROM таблица WHERE условие;
 
 SQLite
 
-Копировать — Пример: INSERT, UPDATE, DELETE
-
-```
+```sql
 UPDATE products
 SET stock = stock - 1
 WHERE id = 1
@@ -585,19 +416,13 @@ WHERE id = 1
 
 Диалекты
 
-1
-
-## 14Диалекты SQL
-
-#dialects
+## 14 Диалекты SQL
 
 Базовый синтаксис общий, функции и ограничения различаются.
 
 Шаблон синтаксиса
 
-Копировать — Шаблон синтаксиса: Диалекты SQL
-
-```
+```sql
 -- SQLite / PostgreSQL / MySQL
 SELECT ... LIMIT 10;
 
@@ -609,9 +434,7 @@ SELECT TOP 10 ...;
 
 SQLite · SQL Server
 
-Копировать — Сравнение: Диалекты SQL
-
-```
+```sql
 -- SQLite и PostgreSQL
 SELECT name FROM products
 ORDER BY price DESC
@@ -633,14 +456,14 @@ ORDER BY price DESC;
 
 Справочник помогает вспомнить форму записи. Уверенность появляется, когда вы сами пишете запросы, разбираете ошибки и понимаете, как СУБД обрабатывает запрос. В курсах есть последовательность и практика с проверкой результата.
 
-Программа обучения →
+[Программа обучения →](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/)
 
-Открыть песочницу →
+[Открыть песочницу →](https://sql.sergeyromanenko.com/sandbox/)
 
-Бесплатный курс «SQL Введение» →
+[Бесплатный курс «SQL Введение» →](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
-Учебный путь по этапам →
+[Учебный путь по этапам →](https://sql.sergeyromanenko.com/roadmap/)
 
-Все курсы →
+[Все курсы →](https://sql.sergeyromanenko.com/courses/)
 
 Примеры из справочника проверяются в SQLite. В MySQL, PostgreSQL и SQL Server часть функций отличается; перед переносом сверьтесь с документацией СУБД. Справочник не заменяет документацию.

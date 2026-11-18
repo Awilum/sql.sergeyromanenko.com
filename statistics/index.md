@@ -4,12 +4,11 @@ seo_title: "Статистика курсов: источник и методи�
 description: "Снимок публичной статистики SQL-курсов Stepik: учащиеся, отзывы, уроки и базовые цены. Источник, дата обновления, ограничения и правила показа данных."
 canonical_url: "https://sql.sergeyromanenko.com/statistics/"
 markdown_url: "https://sql.sergeyromanenko.com/statistics/index.md"
-section: "Site"
+section: "About"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Статистика
 
 # Статистика без магии
 
@@ -19,44 +18,9 @@ robots: "index, follow, max-image-preview:large"
 
 18 ноября 2026
 
-7 курсов и 1 программа. Всего 9 093 учащихся и 307 отзывов.
+7 курсов и 1 программа.
 
-Открыть Stepik Stats →
-
-01
-
-9 093
-
-Учащихся, изучающих SQL на Stepik
-
-02
-
-307
-
-Отзывов на SQL курсах
-
-03
-
-228
-
-Уроков в сумме
-
-04
-
-4,86
-
-Средняя оценка всех моих курсов по SQL
-
-| Курс | Тип | Учащиеся | Отзывы | Рейтинг | Уроки | Цена |
-| --- | --- | --- | --- | --- | --- | --- |
-| [SQL с нуля до результата](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/)ID 279994 | Программа | 86 | 0 | — | 228 | Платно |
-| [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)ID 290855 | Курс | 3 299 | 108 | 4,92 | 21 | Бесплатно |
-| [SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)ID 133728 | Курс | 915 | 78 | 4,76 | 85 | Платно |
-| [Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)ID 279399 | Курс | 2 313 | 30 | 4,87 | 26 | Платно |
-| [SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)ID 295190 | Курс | 609 | 14 | 5,00 | 28 | Платно |
-| [SQL Общие табличные выражения](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)ID 294493 | Курс | 407 | 18 | 4,94 | 17 | Платно |
-| [SQL Оконные функции](https://sql.sergeyromanenko.com/courses/sql-window-functions/)ID 282146 | Курс | 531 | 22 | 4,91 | 34 | Платно |
-| [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)ID 280145 | Курс | 1 019 | 37 | 4,65 | 17 | Бесплатно |
+[Открыть Stepik Stats →](https://stepstat.ru/)
 
 ## Как собираются данные
 

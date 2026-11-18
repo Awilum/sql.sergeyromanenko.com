@@ -7,9 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/terms-of-use/index.md"
 section: "Site"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Условия использования
 
 # Условия использования
 

@@ -7,9 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/tools/index.md"
 section: "Tools"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Инструменты
 
 # Инструменты для работы с SQL
 
@@ -31,11 +30,11 @@ MySQL · SQLite
 
 Инструмент по курсу
 
-«SQL Введение»
+[«SQL Введение»](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
 Разберите SQL-запрос по частям. Узнайте, как работают FROM, JOIN, WHERE, GROUP BY и HAVING и в каком логическом порядке обрабатываются данные.
 
-Открыть →
+[Открыть →](https://sql.sergeyromanenko.com/tools/sql-explainer/)
 
 Браузер
 
@@ -47,7 +46,7 @@ SQLite
 
 Пишите и выполняйте SQL-запросы прямо в браузере. Создавайте и импортируйте базы SQLite, изучайте структуру таблиц и экспортируйте результаты в JSON, CSV, Excel и другие форматы.
 
-Открыть →
+[Открыть →](https://sql.sergeyromanenko.com/tools/sql-editor/)
 
 Браузер
 
@@ -59,7 +58,7 @@ SQL Style Guide
 
 Приведите SQL-запрос к единому стилю оформления. Инструмент расставит отступы, выровняет ключевые слова и сделает структуру запроса понятной для чтения.
 
-Открыть →
+[Открыть →](https://sql.sergeyromanenko.com/tools/sql-formatter/)
 
 ## Инструменты как часть образовательной экосистемы
 

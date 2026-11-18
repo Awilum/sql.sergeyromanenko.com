@@ -7,9 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/copyright-and-licensing/index.md"
 section: "Site"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Авторские права и лицензирование
 
 # Авторские права и лицензирование
 

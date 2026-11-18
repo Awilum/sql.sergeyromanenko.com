@@ -4,12 +4,11 @@ seo_title: "Учебный маршрут по SQL: 7 этапов от осно
 description: "Последовательный маршрут изучения SQL из семи этапов: SELECT, агрегаты, JOIN, логика и NULL, CTE, оконные функции и подготовка к собеседованию. Теория, практика в браузере и курсы на Stepik."
 canonical_url: "https://sql.sergeyromanenko.com/roadmap/"
 markdown_url: "https://sql.sergeyromanenko.com/roadmap/index.md"
-section: "Site"
+section: "Courses"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Учебный путь
 
 # Учебный маршрут по SQL: от первого SELECT до продвинутой аналитики
 
@@ -21,7 +20,7 @@ robots: "index, follow, max-image-preview:large"
 
 Для практики, в песочнице доступны две учебные базы: «Игроки» и «Интернет-магазин». SQLite уже работает в браузере, поэтому устанавливать дополнительные программы не нужно.
 
-Перейти к практике →
+[Перейти к практике →](https://sql.sergeyromanenko.com/sandbox/)
 
 Полная программа обучения
 
@@ -31,133 +30,103 @@ robots: "index, follow, max-image-preview:large"
 
 Платно
 
-Есть промокод
-
 7 курсов
 
-86 участников
+[Состав программы](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/)
 
-Состав программы
-
-Перейти на Stepik
+[Перейти на Stepik](https://stepik.org/a/279994/)
 
 1. 01
-  ## Старт
+  **Старт**
   Этап 1 из 7
   Начните с устройства реляционных баз данных. Научитесь читать структуру таблиц, выбирать нужные столбцы с помощью SELECT, фильтровать записи и сортировать результаты. Главная задача этапа — научиться понимать, какие данные вы запрашиваете и откуда они берутся.
   Теория и практика
   Изучайте подробные объяснения в курсах на Stepik. Используйте справочник SQL, чтобы быстро находить нужный синтаксис, и проверяйте свои запросы на учебных базах данных прямо в браузере.
-  Справочник SQL →
-  SQL-песочница →
+  [Справочник SQL →](https://sql.sergeyromanenko.com/reference/)
+  [SQL-песочница →](https://sql.sergeyromanenko.com/sandbox/)
   Курсы этого этапа
-  ### [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)
+  **[SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)**
   Начальный
-  21 урок
-  3 299 учеников
-  ★ 4,92
   Бесплатно
-  Подробнее
+  [Подробнее](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 2. 02
-  ## Основа
+  **Основа**
   Этап 2 из 7
   Научитесь получать сводную информацию из больших наборов данных. Освойте COUNT, SUM, AVG, GROUP BY и HAVING, чтобы рассчитывать количество записей, суммы, средние значения и другие показатели. Разберитесь, как группировка меняет результаты запроса.
   Теория и практика
   Изучайте подробные объяснения в курсах на Stepik. Используйте справочник SQL, чтобы быстро находить нужный синтаксис, и проверяйте свои запросы на учебных базах данных прямо в браузере.
-  Справочник SQL →
-  SQL-песочница →
+  [Справочник SQL →](https://sql.sergeyromanenko.com/reference/)
+  [SQL-песочница →](https://sql.sergeyromanenko.com/sandbox/)
   Курсы этого этапа
-  ### [SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
+  **[SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)**
   Начальный
-  85 уроков
-  915 учеников
-  ★ 4,76
   Платно
-  Есть промокод
-  Подробнее
+  [Подробнее](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
 3. 03
-  ## Практика
+  **Практика**
   Этап 3 из 7
   Освойте связи между таблицами и научитесь собирать информацию из нескольких источников. Изучите INNER JOIN и LEFT JOIN, разберитесь с первичными и внешними ключами и научитесь находить пропущенные записи и замечать дублирование строк.
   Теория и практика
   Изучайте подробные объяснения в курсах на Stepik. Используйте справочник SQL, чтобы быстро находить нужный синтаксис, и проверяйте свои запросы на учебных базах данных прямо в браузере.
-  Справочник SQL →
-  SQL-песочница →
+  [Справочник SQL →](https://sql.sergeyromanenko.com/reference/)
+  [SQL-песочница →](https://sql.sergeyromanenko.com/sandbox/)
   Курсы этого этапа
-  ### [Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)
+  **[Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)**
   Начальный
-  26 уроков
-  2 313 учеников
-  ★ 4,87
   Платно
-  Есть промокод
-  Подробнее
+  [Подробнее](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)
 4. 04
-  ## Логика
+  **Логика**
   Этап 4 из 7
   Разберитесь в логике SQL и научитесь правильно работать с отсутствующими значениями. Изучите TRUE, FALSE и UNKNOWN, особенности NULL, а также CASE, IN и BETWEEN. Поймите, почему запрос может выполняться без ошибок, но возвращать неожиданный результат.
   Теория и практика
   Изучайте подробные объяснения в курсах на Stepik. Используйте справочник SQL, чтобы быстро находить нужный синтаксис, и проверяйте свои запросы на учебных базах данных прямо в браузере.
-  Справочник SQL →
-  SQL-песочница →
+  [Справочник SQL →](https://sql.sergeyromanenko.com/reference/)
+  [SQL-песочница →](https://sql.sergeyromanenko.com/sandbox/)
   Курсы этого этапа
-  ### [SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)
+  **[SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)**
   Средний
-  28 уроков
-  609 учеников
-  ★ 5,00
   Платно
-  Есть промокод
-  Подробнее
+  [Подробнее](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/)
 5. 05
-  ## Структура
+  **Структура**
   Этап 5 из 7
   Научитесь разбивать сложные запросы на понятные логические блоки. Освойте Common Table Expressions (CTE) с помощью WITH, чтобы последовательно описывать этапы обработки данных и создавать SQL-код, который проще читать, проверять и поддерживать.
   Теория и практика
   Изучайте подробные объяснения в курсах на Stepik. Используйте справочник SQL, чтобы быстро находить нужный синтаксис, и проверяйте свои запросы на учебных базах данных прямо в браузере.
-  Справочник SQL →
-  SQL-песочница →
+  [Справочник SQL →](https://sql.sergeyromanenko.com/reference/)
+  [SQL-песочница →](https://sql.sergeyromanenko.com/sandbox/)
   Курсы этого этапа
-  ### [SQL Общие табличные выражения](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)
+  **[SQL Общие табличные выражения](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)**
   Средний
-  17 уроков
-  407 учеников
-  ★ 4,94
   Платно
-  Есть промокод
-  Подробнее
+  [Подробнее](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/)
 6. 06
-  ## Аналитика
+  **Аналитика**
   Этап 6 из 7
   Перейдите к продвинутой аналитике данных. Изучите оконные функции, ранжирование, LAG, LEAD и накопительные итоги. Научитесь сравнивать показатели между строками, анализировать изменения во времени и выполнять расчёты без группировки и потери исходных записей.
   Теория и практика
   Изучайте подробные объяснения в курсах на Stepik. Используйте справочник SQL, чтобы быстро находить нужный синтаксис, и проверяйте свои запросы на учебных базах данных прямо в браузере.
-  Справочник SQL →
-  SQL-песочница →
+  [Справочник SQL →](https://sql.sergeyromanenko.com/reference/)
+  [SQL-песочница →](https://sql.sergeyromanenko.com/sandbox/)
   Курсы этого этапа
-  ### [SQL Оконные функции](https://sql.sergeyromanenko.com/courses/sql-window-functions/)
+  **[SQL Оконные функции](https://sql.sergeyromanenko.com/courses/sql-window-functions/)**
   Продвинутый
-  34 урока
-  531 учеников
-  ★ 4,91
   Платно
-  Есть промокод
-  Подробнее
+  [Подробнее](https://sql.sergeyromanenko.com/courses/sql-window-functions/)
 7. 07
-  ## Проверка
+  **Проверка**
   Этап 7 из 7
   Систематизируйте знания и проверьте, насколько уверенно вы применяете SQL на практике. Решайте типовые задачи, повторяйте ключевые концепции и учитесь объяснять ход решения. Это поможет подготовиться к техническим собеседованиям и реальным рабочим задачам.
   Теория и практика
   Изучайте подробные объяснения в курсах на Stepik. Используйте справочник SQL, чтобы быстро находить нужный синтаксис, и проверяйте свои запросы на учебных базах данных прямо в браузере.
-  Справочник SQL →
-  SQL-песочница →
+  [Справочник SQL →](https://sql.sergeyromanenko.com/reference/)
+  [SQL-песочница →](https://sql.sergeyromanenko.com/sandbox/)
   Курсы этого этапа
-  ### [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)
+  **[Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)**
   Средний
-  17 уроков
-  1 019 учеников
-  ★ 4,65
   Бесплатно
-  Подробнее
+  [Подробнее](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)
 
 После седьмого этапа
 
@@ -165,6 +134,6 @@ robots: "index, follow, max-image-preview:large"
 
 Изучение SQL не заканчивается на последнем этапе маршрута. Практикуйтесь на новых наборах данных, анализируйте чужие запросы и учитесь самостоятельно находить решения. Перед техническим собеседованием пройдите проверку знаний и повторите типовые вопросы, которые встречаются при отборе SQL-специалистов.
 
-Больше практики
+[Больше практики](https://sql.sergeyromanenko.com/sandbox/)
 
-Проверить знания
+[Проверить знания](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/)

@@ -7,10 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/courses/sql-common-table-expressi
 section: "Courses"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. [Курсы](https://sql.sergeyromanenko.com/courses/)
-2. SQL Общие табличные выражения
 
 Этап 5
 
@@ -20,9 +18,9 @@ robots: "index, follow, max-image-preview:large"
 
 Курс о WITH и общих табличных выражениях: как разбить сложный запрос на понятные шаги, заменить вложенные SELECT и подготовить данные к оконным функциям.
 
-Открыть курс на Stepik
+[Открыть курс на Stepik](https://stepik.org/a/294493/)
 
-Попробовать в песочнице
+[Попробовать в песочнице](https://sql.sergeyromanenko.com/sandbox/)
 
 Переход на Stepik · условия доступа указаны там
 
@@ -48,13 +46,13 @@ robots: "index, follow, max-image-preview:large"
 
 4 модуля
 
-**Введение3 урока**
+**Введение**
 
 - О Курсе
 - Руководство по стилю SQL
 - Учебная база данных
 
-**Основы9 уроков**
+**Основы**
 
 - Что такое CTE
 - Один CTE
@@ -66,12 +64,12 @@ robots: "index, follow, max-image-preview:large"
 - CTE + HAVING
 - CTE + Window Functions
 
-**Практика2 урока**
+**Практика**
 
 - Практические задачи
 - Продолжение практики
 
-**Заключение1 урок**
+**Заключение**
 
 - Итоги курса
 
@@ -93,50 +91,37 @@ robots: "index, follow, max-image-preview:large"
 
 WELCOME2026
 
-Скопировать промокод
-
 Доступен для этого курса на платформе Stepik.
 
 - **Срок действия:** До 31 декабря 2026 года включительно
 
-Перейти на Stepik
+[Перейти на Stepik](https://stepik.org/a/294493/)
 
 ## О диалекте SQL
 
 Курс может использовать MySQL или другую СУБД. Песочница сайта работает на SQLite: она подходит для отработки логики, но не заменяет среду курса. Перед переносом запроса проверьте функции и типы.
 
-Открыть песочницу →
+[Открыть песочницу →](https://sql.sergeyromanenko.com/sandbox/)
 
-Справочник по синтаксису →
+[Справочник по синтаксису →](https://sql.sergeyromanenko.com/reference/#cte)
 
 Факты о курсе
 
 - **Доступ:** Платно
 - **Уровень:** Средний
-- **Уроки:** 17
-- **Учащиеся:** 407
-- **Отзывы:** 18
-- **Рейтинг:** ★ 4,94
-- **Сертификаты:** 74
 
-Доступ — бесплатный или платный. Условия указаны на Stepik. Актуальность: 16 ноября 2026.
+Доступ — бесплатный или платный. Условия указаны на Stepik.
 
-Перейти к курсу
+[Перейти к курсу](https://stepik.org/a/294493/)
 
 Сайт не продаёт курсы и не получает оплату
 
 ## Другие темы
 
-Весь каталог →
+[Весь каталог →](https://sql.sergeyromanenko.com/courses/)
 
-Этап 1 · Начальный
+[Этап 1 · Начальный SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
-SQL Введение
+[Этап 2 · Начальный SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
 
-Этап 2 · Начальный
-
-SQL для начинающих
-
-Этап 3 · Начальный
-
-Практический Тренажер по SQL
+[Этап 3 · Начальный Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)

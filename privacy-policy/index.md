@@ -7,9 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/privacy-policy/index.md"
 section: "Site"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. Политика конфиденциальности
 
 # Политика конфиденциальности
 

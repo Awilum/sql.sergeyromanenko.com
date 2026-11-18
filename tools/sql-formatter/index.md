@@ -7,10 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/tools/sql-formatter/index.md"
 section: "Tools"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. [Инструменты](https://sql.sergeyromanenko.com/tools/)
-2. Форматирование SQL-кода
 
 # Форматирование SQL-кода
 
@@ -28,23 +26,15 @@ SQL Style Guide
 
 ## Исходный SQL
 
-Форматировать SQL
-
-Очистить
-
-Пример
-
 Ctrl или Cmd с Shift + F — форматировать запрос из редактора.
 
 ## Результат форматирования
 
-Копировать
-
-Заменить исходный код
-
 Стиль: SQL Style Guide
 
 Оформление меняет только вид запроса, а не его логику. Запросы никуда не отправляются и не выполняются.
+
+Для форматирования нужен JavaScript: двигатель работает прямо в браузере. Теория и справочник остаются доступными без него:[справочник по синтаксису](https://sql.sergeyromanenko.com/reference/) и[книга «SQL Введение»](https://sql.sergeyromanenko.com/books/sql-introduction/).
 
 ## Зачем форматировать SQL-код
 
@@ -101,7 +91,7 @@ SQL-запрос может возвращать правильный резул
 
 Читайте книгу онлайн и последовательно разбирайтесь в основах SQL: таблицах, SELECT, WHERE, JOIN, GROUP BY и других ключевых конструкциях языка. Открыта для всех — без регистрации.
 
-Читать книгу →
+[Читать книгу →](https://sql.sergeyromanenko.com/books/sql-introduction/)
 
 ИНСТРУМЕНТЫ
 
@@ -109,7 +99,7 @@ SQL-запрос может возвращать правильный резул
 
 Пишите и выполняйте запросы в браузере: SQLite живёт в памяти вкладки, результаты доступны в JSON, CSV и Excel.
 
-Открыть редактор →
+[Открыть редактор →](https://sql.sergeyromanenko.com/tools/sql-editor/)
 
 ИНСТРУМЕНТЫ
 
@@ -117,4 +107,4 @@ SQL-запрос может возвращать правильный резул
 
 Разберите запрос по частям: как работают FROM, JOIN, WHERE, GROUP BY и HAVING и в каком логическом порядке обрабатываются данные.
 
-Разобрать запрос →
+[Разобрать запрос →](https://sql.sergeyromanenko.com/tools/sql-explainer/)

@@ -7,10 +7,8 @@ markdown_url: "https://sql.sergeyromanenko.com/courses/sql-conditional-logic/ind
 section: "Courses"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
-
-1. [Курсы](https://sql.sergeyromanenko.com/courses/)
-2. SQL Условная логика
 
 Этап 4
 
@@ -20,9 +18,9 @@ robots: "index, follow, max-image-preview:large"
 
 Курс о том, почему условия в SQL работают не так, как кажется: TRUE, FALSE и UNKNOWN, NULL, приоритет операторов, BETWEEN, IN, LIKE и CASE в SELECT, GROUP BY, HAVING и UPDATE.
 
-Открыть курс на Stepik
+[Открыть курс на Stepik](https://stepik.org/a/295190/)
 
-Попробовать в песочнице
+[Попробовать в песочнице](https://sql.sergeyromanenko.com/sandbox/)
 
 Переход на Stepik · условия доступа указаны там
 
@@ -48,14 +46,14 @@ robots: "index, follow, max-image-preview:large"
 
 4 модуля
 
-**Введение4 урока**
+**Введение**
 
 - О Курсе
 - Руководство по стилю SQL
 - Учебная база данных
 - Полезные онлайн-инструменты для работы с SQL
 
-**Условная логика19 уроков**
+**Условная логика**
 
 - Что такое условная логика в SQL
 - Логические значения TRUE, FALSE и UNKNOWN
@@ -77,13 +75,13 @@ robots: "index, follow, max-image-preview:large"
 - Категоризация данных
 - Типичные ошибки при работе с условной логикой
 
-**Практика3 урока**
+**Практика**
 
 - Часть 1
 - Часть 2
 - Часть 3
 
-**Заключение2 урока**
+**Заключение**
 
 - Продолжение практики
 - Итоги курса
@@ -94,7 +92,7 @@ robots: "index, follow, max-image-preview:large"
 
 Теория, тесты и практика. Учебная база данных внутри курса.
 
-Платный курс. В программе 28 уроков.
+Платный курс.
 
 ## Промокоды для этого курса
 
@@ -106,50 +104,37 @@ robots: "index, follow, max-image-preview:large"
 
 WELCOME2026
 
-Скопировать промокод
-
 Доступен для этого курса на платформе Stepik.
 
 - **Срок действия:** До 31 декабря 2026 года включительно
 
-Перейти на Stepik
+[Перейти на Stepik](https://stepik.org/a/295190/)
 
 ## О диалекте SQL
 
 Курс может использовать MySQL или другую СУБД. Песочница сайта работает на SQLite: она подходит для отработки логики, но не заменяет среду курса. Перед переносом запроса проверьте функции и типы.
 
-Открыть песочницу →
+[Открыть песочницу →](https://sql.sergeyromanenko.com/sandbox/)
 
-Справочник по синтаксису →
+[Справочник по синтаксису →](https://sql.sergeyromanenko.com/reference/#case)
 
 Факты о курсе
 
 - **Доступ:** Платно
 - **Уровень:** Средний
-- **Уроки:** 28
-- **Учащиеся:** 609
-- **Отзывы:** 14
-- **Рейтинг:** ★ 5,00
-- **Сертификаты:** 69
 
-Доступ — бесплатный или платный. Условия указаны на Stepik. Актуальность: 16 ноября 2026.
+Доступ — бесплатный или платный. Условия указаны на Stepik.
 
-Перейти к курсу
+[Перейти к курсу](https://stepik.org/a/295190/)
 
 Сайт не продаёт курсы и не получает оплату
 
 ## Другие темы
 
-Весь каталог →
+[Весь каталог →](https://sql.sergeyromanenko.com/courses/)
 
-Этап 1 · Начальный
+[Этап 1 · Начальный SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/)
 
-SQL Введение
+[Этап 2 · Начальный SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/)
 
-Этап 2 · Начальный
-
-SQL для начинающих
-
-Этап 3 · Начальный
-
-Практический Тренажер по SQL
+[Этап 3 · Начальный Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/)

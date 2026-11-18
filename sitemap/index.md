@@ -7,13 +7,12 @@ markdown_url: "https://sql.sergeyromanenko.com/sitemap/index.md"
 section: "Site"
 language: "ru"
 robots: "index, follow, max-image-preview:large"
+author: "Сергей Романенко"
 ---
 
-1. Карта сайта
+# Карта сайта
 
-# Карта сайта: все разделы и материалы SQL-платформы
-
-Полная структура образовательной платформы SQL с нуля до результата.
+Полная структура образовательной платформы «SQL с нуля до результата».
 
 - [Главная страница](https://sql.sergeyromanenko.com/) — SQL с нуля до результата — обучающая экосистема
   - [Курсы](https://sql.sergeyromanenko.com/courses/) — Каталог курсов и учебная программа
@@ -43,6 +42,7 @@ robots: "index, follow, max-image-preview:large"
     - [SQL Query Builder](https://sql.sergeyromanenko.com/games/query-builder/)
     - [SQL Bug Hunter](https://sql.sergeyromanenko.com/games/sql-bug-hunter/)
   - [Инструменты](https://sql.sergeyromanenko.com/tools/) — Бесплатные браузерные инструменты для работы с SQL
+    - [SQL Редактор](https://sql.sergeyromanenko.com/tools/sql-editor/) — Бесплатный редактор SQLite в браузере: запросы, импорт баз, экспорт в JSON, CSV, Excel и другие форматы
     - [Разбор SQL-запроса](https://sql.sergeyromanenko.com/tools/sql-explainer/) — Пошаговый разбор структуры SQL-запроса на русском
     - [Форматирование SQL-кода](https://sql.sergeyromanenko.com/tools/sql-formatter/) — Оформление запросов по SQL Style Guide: выравнивание ключевых слов, JOIN, подзапросы и CREATE TABLE
   - [Справочник SQL](https://sql.sergeyromanenko.com/reference/) — Синтаксис SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции и другие темы
@@ -79,6 +79,7 @@ robots: "index, follow, max-image-preview:large"
     - [Методика обучения](https://sql.sergeyromanenko.com/about/#methodology) — Редакционные принципы и источники
     - [Ограничения](https://sql.sergeyromanenko.com/about/#limitations) — Диалекты, проверка заданий, рейтинг
   - [Статистика курсов](https://sql.sergeyromanenko.com/statistics/) — Снимок шагов Stepik Stats
+  - [Карта сайта](https://sql.sergeyromanenko.com/sitemap/) — Полная структура разделов и материалов
 - [Юридическая информация](https://sql.sergeyromanenko.com/privacy-policy/) — Политика, условия, авторские права
   - [Политика конфиденциальности](https://sql.sergeyromanenko.com/privacy-policy/) — Нет аккаунтов, форм, трекеров
   - [Условия использования](https://sql.sergeyromanenko.com/terms-of-use/) — Информационный характер, правила цитирования
