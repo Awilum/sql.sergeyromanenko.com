@@ -24,8 +24,6 @@ SQLite
 
 Редактор работает только с **SQLite**. Запросы, база и результаты остаются в вашем браузере: ничего не загружается на сервер. Синтаксис других СУБД (MySQL, PostgreSQL, SQL Server) может отличаться. Курсы на Stepik в основном используют MySQL — перед переносом запроса проверяйте функции в документации своей СУБД.
 
-.sqlite
-
 пустая база
 
 ### SQL-запрос
@@ -100,14 +98,22 @@ Ctrl или Cmd с Enter — выполнить запрос. Enter добавл
 
 ## Один результат — множество возможностей
 
-Просматривайте результаты в привычной таблице, преобразуйте их в популярные форматы данных, получайте готовые структуры для десяти языков программирования или создавайте изображения с SQL-запросами и результатами.
+Просматривайте результаты в привычной таблице, преобразуйте их в популярные форматы данных, получайте готовые структуры для 17 языков программирования или создавайте изображения с SQL-запросами и результатами.
+
+- **Форматы данных** — JSON, CSV, TSV, SQL INSERT, JSONL/NDJSON, YAML, TOON, XML, TOML, INI, SOML, Avro, Protocol Buffers.
+- **Документация и разметка** — Markdown, HTML, LaTeX, AsciiDoc, reStructuredText, MediaWiki, BBCode, Textile, TracWiki, ASCII Table.
+- **Языки программирования** — Python, JavaScript, TypeScript, Java, C#, C, C++, Go, Rust, PHP, Ruby, R, Visual Basic, Kotlin, Swift, Objective-C, Ada.
+- **Аналитика и библиотеки** — Pandas DataFrame, R DataFrame, MATLAB Table.
+- **Отчёты и изображения** — Excel (XLSX), PDF, PNG, JPEG.
+- **Специализированные интеграции** — DAX (DATATABLE), Firebase, Qlik, Jira (CSV), RDF.
 
 - Интерактивная таблица с пагинацией и удобным просмотром данных.
-- JSON, CSV, Excel, TSV и другие форматы для работы с данными.
-- Markdown, SQL INSERT, YAML, TOON, HTML, XML и LaTeX.
+- JSON, CSV, Excel, TSV, TOML, SOML, YAML и XML — форматов хватит на любой сценарий.
+- Markdown, SQL INSERT, TOON, AsciiDoc, MediaWiki и другие форматы разметки.
 - JSONL / NDJSON для потоковой обработки данных.
-- Готовые структуры данных для Python, JavaScript, TypeScript, Java, C#, C++, Go, Rust, PHP и Ruby.
-- PNG-изображения с результатами запросов или исходным SQL-кодом.
+- Готовые структуры данных для 17 языков: Python, JavaScript, TypeScript, Java, C#, C, C++, Go, Rust, PHP, Ruby, R, Visual Basic, Kotlin, Swift, Objective-C, Ada.
+- Pandas, R DataFrame и MATLAB Table — таблицы для аналитики одной строкой кода.
+- PNG и JPEG — изображения с результатами запросов или исходным SQL-кодом.
 - PDF — отчёт A4 через диалог печати браузера.
 - Экспорт SQLite-базы целиком.
 
