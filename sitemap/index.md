@@ -42,9 +42,15 @@ author: "Сергей Романенко"
     - [SQL Query Builder](https://sql.sergeyromanenko.com/games/query-builder/)
     - [SQL Bug Hunter](https://sql.sergeyromanenko.com/games/sql-bug-hunter/)
   - [Инструменты](https://sql.sergeyromanenko.com/tools/) — Бесплатные браузерные инструменты для работы с SQL
-    - [SQL Редактор](https://sql.sergeyromanenko.com/tools/sql-editor/) — Бесплатный редактор SQLite в браузере: запросы, импорт баз, экспорт в JSON, CSV, Excel и другие форматы
-    - [Разбор SQL-запроса](https://sql.sergeyromanenko.com/tools/sql-explainer/) — Пошаговый разбор структуры SQL-запроса на русском
-    - [Форматирование SQL-кода](https://sql.sergeyromanenko.com/tools/sql-formatter/) — Оформление запросов по SQL Style Guide: выравнивание ключевых слов, JOIN, подзапросы и CREATE TABLE
+    - [Разбор SQL-запроса](https://sql.sergeyromanenko.com/tools/sql-explainer/) — Разберите SQL-запрос по частям. Узнайте, как работают FROM, JOIN, WHERE, GROUP BY и HAVING и в каком логическом порядке обрабатываются данные.
+    - [SQL Редактор](https://sql.sergeyromanenko.com/tools/sql-editor/) — Пишите и выполняйте SQL-запросы прямо в браузере. Создавайте и импортируйте базы SQLite, изучайте структуру таблиц и экспортируйте результаты в JSON, CSV, Excel и другие форматы.
+    - [Форматирование SQL-кода](https://sql.sergeyromanenko.com/tools/sql-formatter/) — Приведите SQL-запрос к единому стилю оформления. Инструмент расставит отступы, выровняет ключевые слова и сделает структуру запроса понятной для чтения.
+    - [Проверка синтаксиса SQL](https://sql.sergeyromanenko.com/tools/sql-syntax-validator/) — Проверьте SQL-запрос на синтаксические ошибки. Инструмент разбирает код по грамматике выбранного диалекта и сообщает о проблемах с указанием строки и столбца.
+    - [Минификатор SQL](https://sql.sergeyromanenko.com/tools/sql-minifier/) — Сократите размер SQL-запроса: удалите лишние пробелы и обычные комментарии, сохранив строковые значения, идентификаторы и подсказки оптимизатору.
+    - [Regex to LIKE](https://sql.sergeyromanenko.com/tools/regex-to-like/) — Преобразуйте простые регулярные выражения в SQL LIKE. Инструмент показывает распознанные конструкции и объясняет, когда точное преобразование невозможно.
+    - [Сравнение схем SQL](https://sql.sergeyromanenko.com/tools/schema-diff/) — Сравните две версии структуры базы данных, найдите изменения таблиц, столбцов, индексов и ограничений и подготовьте SQL-миграцию.
+    - [Генератор ER-диаграмм](https://sql.sergeyromanenko.com/tools/er-diagram/) — Постройте ER-диаграмму по SQL CREATE TABLE: таблицы, ключи и связи между сущностями. Экспорт PNG.
+    - [Конвертер данных в SQL](https://sql.sergeyromanenko.com/tools/converter/) — Преобразование JSON, CSV, Excel и других форматов в SQL. Автоматическое создание таблиц и INSERT-запросов.
   - [Справочник SQL](https://sql.sergeyromanenko.com/reference/) — Синтаксис SELECT, WHERE, JOIN, GROUP BY, CTE, оконные функции и другие темы
     - [SELECT](https://sql.sergeyromanenko.com/reference/#select) — Выбирает столбцы и вычисляемые выражения из таблицы.
     - [WHERE](https://sql.sergeyromanenko.com/reference/#where) — Оставляет строки, для которых условие истинно.
