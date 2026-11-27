@@ -1,7 +1,7 @@
 ---
 title: "SQL Редактор"
 seo_title: "SQL Редактор онлайн — SQLite в браузере — SQL с нуля до результата"
-description: "Бесплатный SQL Редактор онлайн для работы с SQLite. Выполняйте запросы, создавайте и импортируйте базы данных, изучайте структуру таблиц и экспортируйте результаты в JSON, CSV, Excel и другие форматы. Работает прямо в браузере без регистрации."
+description: "Бесплатный SQL Редактор онлайн для SQLite: выполняйте запросы, создавайте и импортируйте базы, смотрите структуру таблиц, экспорт в JSON, CSV, Excel и другие форматы. В браузере, без регистрации."
 canonical_url: "https://sql.sergeyromanenko.com/tools/sql-editor/"
 markdown_url: "https://sql.sergeyromanenko.com/tools/sql-editor/index.md"
 section: "Tools"

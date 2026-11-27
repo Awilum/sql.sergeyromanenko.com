@@ -1,7 +1,7 @@
 ---
 title: "Проверка знаний и подготовка к собеседованию по SQL"
 seo_title: "Проверка знаний SQL — бесплатный курс-тест — SQL с нуля до результата"
-description: "Бесплатный курс-тест по SQL для подготовки к собеседованию: ключевые темы, пробелы в знаниях и 17 уроков. Проверенные факты и программа."
+description: "Бесплатный курс-тест по SQL для подготовки к собеседованию: ключевые темы, пробелы в знаниях и Проверенные факты и программа."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-knowledge-check/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-knowledge-check/index.md"
 section: "Courses"

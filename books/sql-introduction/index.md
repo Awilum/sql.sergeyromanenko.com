@@ -79,9 +79,9 @@ SQL Введение — это только начало. Полная прог
 
 Загрузки книги
 
-1 614 PDF + EPUB
+1 635 PDF + EPUB
 
-Источник: GitHub API · обновлено 25 ноября 2026 г.
+Источник: GitHub API · обновлено 26 ноября 2026 г.
 
 [PDF + EPUB](https://github.com/Awilum/sql-introduction/releases)
 

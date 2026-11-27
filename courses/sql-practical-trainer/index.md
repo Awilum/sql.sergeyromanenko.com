@@ -1,7 +1,7 @@
 ---
 title: "Практический Тренажер по SQL"
 seo_title: "Практический тренажёр по SQL — задачи и аналитика — SQL с нуля до результата"
-description: "Тренажёр по SQL на сценариях интернет-магазина, отелей и игровой платформы. 26 уроков, JOIN, аналитика и практика. Программа и факты на Stepik."
+description: "Тренажёр по SQL на сценариях интернет-магазина, отелей и игровой платформы. JOIN, аналитика и практика. Программа и факты на Stepik."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-practical-trainer/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-practical-trainer/index.md"
 section: "Courses"

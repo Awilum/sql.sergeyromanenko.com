@@ -1,7 +1,7 @@
 ---
 title: "SQL Общие табличные выражения"
 seo_title: "SQL: общие табличные выражения (CTE) — курс — SQL с нуля до результата"
-description: "Курс об общих табличных выражениях: WITH, разбор сложных запросов на шаги и подготовка к оконным функциям. 17 уроков и проверенные факты."
+description: "Курс об общих табличных выражениях: WITH, разбор сложных запросов на шаги и подготовка к оконным функциям. проверенные факты."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/index.md"
 section: "Courses"

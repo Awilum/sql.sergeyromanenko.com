@@ -1,7 +1,7 @@
 ---
 title: "SQL Оконные функции"
 seo_title: "SQL: оконные функции — курс с практикой — SQL с нуля до результата"
-description: "Курс по оконным функциям SQL: OVER, PARTITION BY, RANK, LAG, LEAD и рамки окна. 34 уроков, программа и проверенные факты на Stepik."
+description: "Курс по оконным функциям SQL: OVER, PARTITION BY, RANK, LAG, LEAD и рамки окна. программа и проверенные факты на Stepik."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-window-functions/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-window-functions/index.md"
 section: "Courses"

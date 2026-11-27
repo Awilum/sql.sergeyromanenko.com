@@ -1,7 +1,7 @@
 ---
 title: "SQL Введение"
 seo_title: "SQL Введение — бесплатный курс по основам — SQL с нуля до результата"
-description: "Бесплатный вводный курс по SQL: таблицы, SELECT, фильтрация, сортировка, агрегаты и группировка. 19 уроков и практика на Stepik. Проверенные факты и программа."
+description: "Бесплатный вводный курс по SQL: таблицы, SELECT, фильтрация, сортировка, агрегаты и группировка. практика на Stepik. Проверенные факты и программа."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-introduction/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-introduction/index.md"
 section: "Courses"

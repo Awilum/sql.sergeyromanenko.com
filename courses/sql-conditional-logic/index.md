@@ -1,7 +1,7 @@
 ---
 title: "SQL Условная логика"
 seo_title: "SQL: условная логика и NULL — курс — SQL с нуля до результата"
-description: "Курс о логике условий в SQL: TRUE, FALSE и UNKNOWN, NULL, BETWEEN, IN, LIKE и CASE. 28 уроков, программа и проверенные факты на Stepik."
+description: "Курс о логике условий в SQL: TRUE, FALSE и UNKNOWN, NULL, BETWEEN, IN, LIKE и CASE. программа и проверенные факты на Stepik."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-conditional-logic/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-conditional-logic/index.md"
 section: "Courses"

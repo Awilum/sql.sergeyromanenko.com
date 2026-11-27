@@ -1,7 +1,7 @@
 ---
 title: "SQL для начинающих"
 seo_title: "SQL для начинающих — системный курс на MySQL — SQL с нуля до результата"
-description: "Системный курс по основам SQL на MySQL: синтаксис, функции, JOIN, подзапросы и изменение данных. 85 уроков, программа и проверенные факты."
+description: "Системный курс по основам SQL на MySQL: синтаксис, функции, JOIN, подзапросы и изменение данных. программа и проверенные факты."
 canonical_url: "https://sql.sergeyromanenko.com/courses/sql-for-beginners/"
 markdown_url: "https://sql.sergeyromanenko.com/courses/sql-for-beginners/index.md"
 section: "Courses"

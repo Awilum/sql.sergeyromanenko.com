@@ -53,8 +53,8 @@
   <line x1="100" y1="138" x2="1100" y2="138" stroke="#cfc3ae" stroke-width="1.5"/>
   <text x="100" y="178.0" dominant-baseline="text-before-edge" font-family="Instrument Serif, PT Serif, serif" font-size="92" letter-spacing="-0.015em" fill="#302d29">Песочница SQL: SQLite в</text>
   <text x="100" y="273.7" dominant-baseline="text-before-edge" font-family="Instrument Serif, PT Serif, serif" font-size="92" letter-spacing="-0.015em" fill="#302d29">браузере</text>
-  <text x="100" y="395.4" dominant-baseline="text-before-edge" font-family="Inter, sans-serif" font-size="22" fill="#655d51">Лёгкая песочница SQL для учебных баз данных из курсов на Stepik: выполняйте запросы к</text>
-  <text x="100" y="427.3" dominant-baseline="text-before-edge" font-family="Inter, sans-serif" font-size="22" fill="#655d51">базам «Игроки» и «Интернет-магазин», смотрите результат таблицей или в формате…</text>
+  <text x="100" y="395.4" dominant-baseline="text-before-edge" font-family="Inter, sans-serif" font-size="22" fill="#655d51">Лёгкая песочница SQL для учебных баз из курсов на Stepik: запросы к базам «Игроки» и</text>
+  <text x="100" y="427.3" dominant-baseline="text-before-edge" font-family="Inter, sans-serif" font-size="22" fill="#655d51">«Интернет-магазин», результат таблицей, в Markdown и JSON, экспорт в PNG. Без…</text>
   <line x1="100" y1="514" x2="1100" y2="514" stroke="#e4dcce" stroke-width="1"/>
   <text x="100" y="556" font-family="Instrument Serif, PT Serif, serif" font-style="italic" font-size="21" fill="#302d29">SQL с нуля до результата</text>
   <text x="1100" y="556" text-anchor="end" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="0.9" fill="#726857">sql.sergeyromanenko.com</text>

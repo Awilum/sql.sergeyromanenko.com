@@ -1,7 +1,7 @@
 ---
 title: "Песочница SQL"
 seo_title: "Песочница SQL: SQLite в браузере — SQL с нуля до результата"
-description: "Лёгкая песочница SQL для учебных баз данных из курсов на Stepik: выполняйте запросы к базам «Игроки» и «Интернет-магазин», смотрите результат таблицей или в формате Markdown и JSON, скачивайте его в PNG. Без регистрации и установки."
+description: "Лёгкая песочница SQL для учебных баз из курсов на Stepik: запросы к базам «Игроки» и «Интернет-магазин», результат таблицей, в Markdown и JSON, экспорт в PNG. Без регистрации."
 canonical_url: "https://sql.sergeyromanenko.com/sandbox/"
 markdown_url: "https://sql.sergeyromanenko.com/sandbox/index.md"
 section: "Practice"

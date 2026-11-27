@@ -24,21 +24,21 @@ Each canonical page has an `index.md` representation in the same directory (for 
   - [Markdown](https://sql.sergeyromanenko.com/reviews/index.md)
 - [Учебный маршрут по SQL: от первого SELECT до продвинутой аналитики](https://sql.sergeyromanenko.com/roadmap/): Последовательный маршрут изучения SQL из семи этапов: SELECT, агрегаты, JOIN, логика и NULL, CTE, оконные функции и подготовка к собеседованию. Теория, практика в браузере и курсы на Stepik.
   - [Markdown](https://sql.sergeyromanenko.com/roadmap/index.md)
-- [SQL Общие табличные выражения](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/): Курс об общих табличных выражениях: WITH, разбор сложных запросов на шаги и подготовка к оконным функциям. 17 уроков и проверенные факты.
+- [SQL Общие табличные выражения](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/): Курс об общих табличных выражениях: WITH, разбор сложных запросов на шаги и подготовка к оконным функциям. проверенные факты.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-common-table-expressions/index.md)
-- [SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/): Курс о логике условий в SQL: TRUE, FALSE и UNKNOWN, NULL, BETWEEN, IN, LIKE и CASE. 28 уроков, программа и проверенные факты на Stepik.
+- [SQL Условная логика](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/): Курс о логике условий в SQL: TRUE, FALSE и UNKNOWN, NULL, BETWEEN, IN, LIKE и CASE. программа и проверенные факты на Stepik.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-conditional-logic/index.md)
-- [SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/): Системный курс по основам SQL на MySQL: синтаксис, функции, JOIN, подзапросы и изменение данных. 85 уроков, программа и проверенные факты.
+- [SQL для начинающих](https://sql.sergeyromanenko.com/courses/sql-for-beginners/): Системный курс по основам SQL на MySQL: синтаксис, функции, JOIN, подзапросы и изменение данных. программа и проверенные факты.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-for-beginners/index.md)
 - [SQL с нуля до результата](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/): Программа «SQL с нуля до результата»: семь курсов от основ до оконных функций и подготовки к собеседованию. Состав и проверенные факты.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-from-zero-to-hero/index.md)
-- [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/): Бесплатный вводный курс по SQL: таблицы, SELECT, фильтрация, сортировка, агрегаты и группировка. 19 уроков и практика на Stepik. Проверенные факты и программа.
+- [SQL Введение](https://sql.sergeyromanenko.com/courses/sql-introduction/): Бесплатный вводный курс по SQL: таблицы, SELECT, фильтрация, сортировка, агрегаты и группировка. практика на Stepik. Проверенные факты и программа.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-introduction/index.md)
-- [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/): Бесплатный курс-тест по SQL для подготовки к собеседованию: ключевые темы, пробелы в знаниях и 17 уроков. Проверенные факты и программа.
+- [Проверка знаний и подготовка к собеседованию по SQL](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/): Бесплатный курс-тест по SQL для подготовки к собеседованию: ключевые темы, пробелы в знаниях и Проверенные факты и программа.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-knowledge-check/index.md)
-- [Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/): Тренажёр по SQL на сценариях интернет-магазина, отелей и игровой платформы. 26 уроков, JOIN, аналитика и практика. Программа и факты на Stepik.
+- [Практический Тренажер по SQL](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/): Тренажёр по SQL на сценариях интернет-магазина, отелей и игровой платформы. JOIN, аналитика и практика. Программа и факты на Stepik.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-practical-trainer/index.md)
-- [SQL Оконные функции](https://sql.sergeyromanenko.com/courses/sql-window-functions/): Курс по оконным функциям SQL: OVER, PARTITION BY, RANK, LAG, LEAD и рамки окна. 34 уроков, программа и проверенные факты на Stepik.
+- [SQL Оконные функции](https://sql.sergeyromanenko.com/courses/sql-window-functions/): Курс по оконным функциям SQL: OVER, PARTITION BY, RANK, LAG, LEAD и рамки окна. программа и проверенные факты на Stepik.
   - [Markdown](https://sql.sergeyromanenko.com/courses/sql-window-functions/index.md)
 
 ## Books
@@ -81,7 +81,7 @@ Each canonical page has an `index.md` representation in the same directory (for 
 
 - [Сертификаты ваших достижений в SQL](https://sql.sergeyromanenko.com/certificate/): Именные сертификаты SQL-тренажёра, тематических миссий, SQL Memory Match и SQL Query Builder. Скачивание PNG высокого разрешения и передача сертификата по ссылке. Формируются прямо в браузере.
   - [Markdown](https://sql.sergeyromanenko.com/certificate/index.md)
-- [Песочница SQL](https://sql.sergeyromanenko.com/sandbox/): Лёгкая песочница SQL для учебных баз данных из курсов на Stepik: выполняйте запросы к базам «Игроки» и «Интернет-магазин», смотрите результат таблицей или в формате Markdown и JSON, скачивайте его в PNG. Без регистрации и установки.
+- [Песочница SQL](https://sql.sergeyromanenko.com/sandbox/): Лёгкая песочница SQL для учебных баз из курсов на Stepik: запросы к базам «Игроки» и «Интернет-магазин», результат таблицей, в Markdown и JSON, экспорт в PNG. Без регистрации.
   - [Markdown](https://sql.sergeyromanenko.com/sandbox/index.md)
 - [SQL Тренажёр](https://sql.sergeyromanenko.com/trainer/): Решайте реальные практические задачи бесплатного курса «SQL Введение» прямо в браузере. Выполняйте SQL, проверяйте результат, отслеживайте прогресс и получайте достижения. Без регистрации.
   - [Markdown](https://sql.sergeyromanenko.com/trainer/index.md)
@@ -94,11 +94,13 @@ Each canonical page has an `index.md` representation in the same directory (for 
   - [Markdown](https://sql.sergeyromanenko.com/tools/converter/index.md)
 - [Генератор ER-диаграмм онлайн](https://sql.sergeyromanenko.com/tools/er-diagram/): Постройте ER-диаграмму по SQL CREATE TABLE онлайн. Визуализируйте таблицы, первичные и внешние ключи, связи один-ко-многим и многие-ко-многим. Экспорт PNG.
   - [Markdown](https://sql.sergeyromanenko.com/tools/er-diagram/index.md)
+- [Анализатор SQL-запросов](https://sql.sergeyromanenko.com/tools/query-analyzer/): Проверяйте SQL-запросы на распространённые ошибки и потенциальные проблемы производительности. Получайте объяснения и примеры возможных улучшений.
+  - [Markdown](https://sql.sergeyromanenko.com/tools/query-analyzer/index.md)
 - [Regex to LIKE](https://sql.sergeyromanenko.com/tools/regex-to-like/): Преобразуйте регулярные выражения в SQL LIKE онлайн. Анализ шаблонов, поддержка PostgreSQL, MySQL, SQLite, MariaDB и SQL Server. Бесплатно, без регистрации.
   - [Markdown](https://sql.sergeyromanenko.com/tools/regex-to-like/index.md)
 - [Сравнение схем SQL онлайн](https://sql.sergeyromanenko.com/tools/schema-diff/): Сравните две SQL-схемы онлайн. Найдите изменения таблиц, столбцов, индексов и ограничений. Сгенерируйте SQL-миграцию для выбранной СУБД.
   - [Markdown](https://sql.sergeyromanenko.com/tools/schema-diff/index.md)
-- [SQL Редактор](https://sql.sergeyromanenko.com/tools/sql-editor/): Бесплатный SQL Редактор онлайн для работы с SQLite. Выполняйте запросы, создавайте и импортируйте базы данных, изучайте структуру таблиц и экспортируйте результаты в JSON, CSV, Excel и другие форматы. Работает прямо в браузере без регистрации.
+- [SQL Редактор](https://sql.sergeyromanenko.com/tools/sql-editor/): Бесплатный SQL Редактор онлайн для SQLite: выполняйте запросы, создавайте и импортируйте базы, смотрите структуру таблиц, экспорт в JSON, CSV, Excel и другие форматы. В браузере, без регистрации.
   - [Markdown](https://sql.sergeyromanenko.com/tools/sql-editor/index.md)
 - [Разбор SQL-запроса](https://sql.sergeyromanenko.com/tools/sql-explainer/): Бесплатный инструмент для разбора SELECT-запросов. Изучайте FROM, JOIN, WHERE, GROUP BY, HAVING и другие части SQL с понятными объяснениями на русском языке.
   - [Markdown](https://sql.sergeyromanenko.com/tools/sql-explainer/index.md)
@@ -106,6 +108,8 @@ Each canonical page has an `index.md` representation in the same directory (for 
   - [Markdown](https://sql.sergeyromanenko.com/tools/sql-formatter/index.md)
 - [Минификатор SQL онлайн](https://sql.sergeyromanenko.com/tools/sql-minifier/): Минифицируйте SQL онлайн: удаляйте лишние пробелы и комментарии, сокращайте размер запросов с сохранением строковых значений. Бесплатный инструмент.
   - [Markdown](https://sql.sergeyromanenko.com/tools/sql-minifier/index.md)
+- [SQL-конструктор запросов](https://sql.sergeyromanenko.com/tools/sql-query-builder/): Бесплатный SQL-конструктор запросов онлайн. Создавайте SELECT, JOIN, WHERE, GROUP BY, COUNT, INSERT, UPDATE и DELETE визуально. Поддержка SQLite и MySQL.
+  - [Markdown](https://sql.sergeyromanenko.com/tools/sql-query-builder/index.md)
 - [Проверка синтаксиса SQL](https://sql.sergeyromanenko.com/tools/sql-syntax-validator/): Бесплатная проверка синтаксиса SQL онлайн. Найдите ошибки в запросах MySQL, PostgreSQL, SQLite, MariaDB и SQL Server. Проверка SQL без регистрации прямо в браузере.
   - [Markdown](https://sql.sergeyromanenko.com/tools/sql-syntax-validator/index.md)
 
